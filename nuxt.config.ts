@@ -15,7 +15,6 @@ export default defineNuxtConfig({
     "/**": { prerender: true },
   },
   app: {
-    baseURL: "/rast-deploy/",
     head: {
       link: [
         { rel: "preconnect", href: "https://fonts.googleapis.com" },

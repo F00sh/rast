@@ -1,10 +1,9 @@
 <template>
   <div>
     <NuxtRouteAnnouncer />
-    <Navbar />
-    <Header />
-    <AboutSection id="about-section" />
-    <ContactForm />
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
   </div>
 </template>
 <script></script>

@@ -1,7 +1,7 @@
 <template>
   <div>
     <NuxtRouteAnnouncer />
-    <Navbar title="Rast." />
+    <Navbar />
     <Header />
     <AboutSection id="about-section" />
     <ContactForm />

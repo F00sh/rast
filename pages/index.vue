@@ -1,7 +1,7 @@
 <template>
     <div>
-    <Header />
-    <AboutSection id="about-section" />
-    <ContactForm />
+        <Header />
+        <About />
+        <Kontakt />
     </div>
 </template>

@@ -2,6 +2,6 @@
     <div>
         <Header />
         <About />
-        <Kontakt />
+        <Contact/>
     </div>
 </template>

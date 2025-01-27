@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-800 h-100 w-full flex justify-between items-center p-4">
+  <div class="absolute bg-emerald-600 bg-opacity-80 h-100 w-full flex justify-between items-center p-4">
     <NuxtLink to="/">
         <img src="/assets/logo_img.svg" alt="Logo" class="h-16 w-auto" />
       </NuxtLink>
@@ -30,15 +30,12 @@
     <!-- Use a transition to slide in from the left -->
     <transition name="slide-left">
       <!-- This dark overlay spans the full screen behind the menu -->
-      <div
-        v-if="mobileOpen"
-        class="fixed inset-0 z-40 bg-black bg-opacity-30 backdrop-blur-sm"
+      <div v-if="mobileOpen" class="fixed inset-0 z-40 bg-gray-800 bg-opacity-30 backdrop-blur-sm"
         @click.self="mobileOpen = false"
       >
         <!-- The side drawer itself -->
-        <div
-          class="fixed top-0 left-0 h-full w-64 bg-white text-black p-4 transform transition-transform duration-300 ease-in-out"
-          :class="{ 'translate-x-0': mobileOpen, '-translate-x-full': !mobileOpen }"
+        <div class="fixed top-0 left-0 h-full w-64 bg-emerald-600 text-white p-4 transform transition-transform duration-300 ease-in-out"
+            :class="{ 'translate-x-0': mobileOpen, '-translate-x-full': !mobileOpen }"
         >
           <!-- Close button for mobile menu -->
           <button

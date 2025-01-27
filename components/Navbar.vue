@@ -1,7 +1,7 @@
 <template>
-  <div class="absolute bg-emerald-600 bg-opacity-80 h-100 w-full flex justify-between items-center p-4">
+  <div class="absolute bg-emerald-600 bg-opacity-50 h-100 w-full flex justify-between items-center p-4">
     <NuxtLink to="/">
-        <img src="/assets/logo_img.svg" alt="Logo" class="h-16 w-auto" />
+        <img src="/img/logo_img.svg" alt="Logo" class="h-16 w-auto" />
       </NuxtLink>
       
       <!--Mobile Menu Hidden in Desktop-->

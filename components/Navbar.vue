@@ -1,6 +1,7 @@
 <template>
   <div class="absolute bg-emerald-600 bg-opacity-50 h-100 w-full flex justify-between items-center p-4">
-    <NuxtLink to="/">
+    <div v-if="!mobileOpen" class="flex items-center justify-between w-full">
+      <NuxtLink to="/">
         <img src="/img/logo_img.svg" alt="Logo" class="h-16 w-auto" />
       </NuxtLink>
       
@@ -25,10 +26,9 @@
           />
         </svg>
       </button>
-
-       <!-- MOBILE SLIDE-OVER MENU -->
-    <!-- Use a transition to slide in from the left -->
-    <transition name="slide-left">
+    </div>
+    <div>
+      <transition name="slide-left">
       <!-- This dark overlay spans the full screen behind the menu -->
       <div v-if="mobileOpen" class="fixed inset-0 z-40 bg-gray-800 bg-opacity-30 backdrop-blur-sm"
         @click.self="mobileOpen = false"
@@ -85,15 +85,12 @@
         </div>
       </div>
     </transition>
+    </div>
+    
   </div>
 </template>
 
-<script>
-export default {
-  data() {
-    return {
-      mobileOpen: false
-    };
-  }
-};
+<script setup lang="ts">
+  import { ref } from 'vue'
+  const mobileOpen= ref(false)
 </script>

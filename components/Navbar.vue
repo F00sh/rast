@@ -1,5 +1,9 @@
 <template>
   <div class="fixed top-0 left-0 z-50 w-full flex justify-between items-center">
+    <transition enter-active-class="transform transition-transform duration-300 ease-in-out"
+        enter-from-class="-translate-y-full" enter-to-class="translate-y-0"
+        leave-active-class="transform transition-transform duration-300 ease-in-out" leave-from-class="translate-x-0"
+        leave-to-class="-translate-y-full">
     <div v-if="!mobileOpen" class="flex items-center justify-between w-full bg-emerald-600 bg-opacity-50 h-20 p-4">
       <NuxtLink to="/">
         <img src="/img/logo_img.svg" alt="Logo" class="h-16 w-auto" />
@@ -14,10 +18,14 @@
         </svg>
       </button>
     </div>
+  </transition>
     <div>
-      <transition name="slide-left">
+      <transition enter-active-class="transform transition-transform duration-300 ease-in-out"
+        enter-from-class="-translate-x-full" enter-to-class="translate-x-0"
+        leave-active-class="transform transition-transform duration-300 ease-in-out" leave-from-class="translate-x-0"
+        leave-to-class="-translate-x-full">
         <!-- This dark overlay spans the full screen behind the menu -->
-        <div v-if="mobileOpen" class="fixed inset-0 z-40 bg-gray-800 bg-opacity-30 backdrop-blur-sm"
+        <div v-if="mobileOpen" class="fixed inset-0 z-40 bg-gray-800 bg-opacity-0"
           @click.self="mobileOpen = false">
           <!-- The side drawer itself -->
           <div

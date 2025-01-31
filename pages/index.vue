@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-gray-800 flex flex-col flex-1 overflow-auto">
+    <div class="-z-50 bg-slate-200 flex flex-col flex-1 overflow-auto">
         <Header />
         <About />
         <Services />

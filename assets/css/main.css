@@ -4,3 +4,22 @@
 @tailwind components;
 @tailwind utilities;
 
+html, body {
+    /* Make the document full height and vertically scrollable */
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll hidden; 
+    
+    /* Enable snap: vertical axis, and force it to snap each section */
+    scroll-snap-type: y mandatory;
+  }
+  
+  section {
+    /* Each section snaps to the top of the screen */
+    scroll-snap-align: start;
+    
+    /* Make each section the full viewport height (one snap per screen) */
+    height: 100vh;
+  }
+

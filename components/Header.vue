@@ -7,8 +7,5 @@
     class="w-full h-full object-cover"
   />
 </div>
-  <div class="absolute flex md:items-end md:justify-end w-full" >
-    <img src="/img/lovor_img.png" alt="lovor-višnja" class="object-cover">
-  </div>
 </div>
 </template>

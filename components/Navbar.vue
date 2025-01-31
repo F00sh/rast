@@ -1,7 +1,7 @@
 <template>
   <div class="fixed top-0 left-0 z-50 w-full flex justify-between items-center">
     <transition>
-        <div v-if="mobileOpen" class="absolute flex w-screen h-screen inset-0 bg-gray-800 bg-opacity-0 backdrop-blur-sm z-40"
+        <div v-if="mobileOpen" class="absolute flex w-screen h-screen inset-0 bg-opacity-0 backdrop-blur-sm z-40"
           @click.self="mobileOpen = false">
         </div>
     </transition>
@@ -9,7 +9,7 @@
         enter-from-class="-translate-y-full" enter-to-class="translate-y-0"
         leave-active-class="transform transition-transform duration-300 ease-in-out" leave-from-class="translate-x-0"
         leave-to-class="-translate-y-full">
-    <div v-if="!mobileOpen" class="flex items-center justify-between w-full bg-emerald-500 bg-opacity-50 h-20 p-4">
+    <div v-if="!mobileOpen" class="flex items-center justify-between w-full bg-opacity-50 h-20 p-4">
       <NuxtLink to="/">
         <img src="/img/logo_img.svg" alt="Logo" class="h-16 w-auto" />
       </NuxtLink>

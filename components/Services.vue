@@ -1,5 +1,5 @@
 <template>
-  <div class=" h-screen justify-center bg-teal-700 text-white px-4 pb-20 mb-auto pt-40">
+  <div class=" h-screen justify-center bg-teal-700 text-white px-4 pb-20 mb-auto pt-20">
     <div class="my-auto top-0 flex-1 w-full h-40 text-center">
       <h1 class="text-7xl font-bold">vrste usluga</h1>
       <h2 class="text-3xl font-medium">tim neviđenih sposobnosti</h2>

@@ -9,7 +9,7 @@
         enter-from-class="-translate-y-full" enter-to-class="translate-y-0"
         leave-active-class="transform transition-transform duration-300 ease-in-out" leave-from-class="translate-x-0"
         leave-to-class="-translate-y-full">
-    <div v-if="!mobileOpen" class="flex items-center justify-between w-full bg-emerald-600 bg-opacity-50 h-20 p-4">
+    <div v-if="!mobileOpen" class="flex items-center justify-between w-full bg-emerald-500 bg-opacity-50 h-20 p-4">
       <NuxtLink to="/">
         <img src="/img/logo_img.svg" alt="Logo" class="h-16 w-auto" />
       </NuxtLink>
@@ -36,7 +36,7 @@
           @click.self="mobileOpen = false">
           <!-- The side drawer itself -->
           <div
-            class="fixed top-0 left-0 h-full w-64 bg-emerald-600 text-white p-4 transform transition-transform duration-300 ease-in-out"
+            class="fixed top-0 left-0 h-full w-64 bg-emerald-500 text-white p-4 transform transition-transform duration-300 ease-in-out"
             :class="{
               'translate-x-0': mobileOpen,
               '-translate-x-full': !mobileOpen,

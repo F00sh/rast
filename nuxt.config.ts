@@ -1,15 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  data() {
-    return {
-      blurred: false,
-    };
-  },
-  methods: {
-    blurFadeIn() {
-      this.blurred = true;
-    },
-  },
   compatibilityDate: "2024-11-01",
   devtools: { enabled: true },
   css: ["~/assets/css/main.css"],

@@ -4,6 +4,10 @@
     <NuxtLayout>
     <NuxtPage />
     </NuxtLayout>
+    <ScrollButton />
   </div>
 </template>
-<script></script>
+<script>
+import ScrollButton from './components/ScrollButton.vue';
+
+</script>

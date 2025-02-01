@@ -3,7 +3,9 @@
     <button
       v-if="!isAtBottom"
       class="fixed bottom-8 right-8 
-             w-12 h-12 
+             w-12 h-12
+             md:w-16 md:h-16
+             lg:w-20 lg:h-20 
              rounded-full 
              bg-blue-500 text-white 
              shadow-md 

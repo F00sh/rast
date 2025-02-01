@@ -1,9 +1,5 @@
 <template>
-    <div class="-z-50 bg-slate-200 flex flex-col flex-1 overflow-auto">
+    <div class="-z-50 w-full h-screen flex-1 flex-col">
         <Header />
-        <About />
-        <Services />
-        <Blog />
-        <Contact />
     </div>
 </template>

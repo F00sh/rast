@@ -9,11 +9,8 @@
         enter-from-class="-translate-y-full" enter-to-class="translate-y-0"
         leave-active-class="transform transition-transform duration-300 ease-in-out" leave-from-class="translate-x-0"
         leave-to-class="-translate-y-full">
-    <div v-if="!mobileOpen" class="flex items-center justify-between w-full bg-opacity-50 h-20 md:h-40">
-      <NuxtLink to="/">
-        <img src="/img/logo_img.svg" alt="Logo" class="h-16 md:h-40 w-auto md:pl-14" />
-      </NuxtLink>
-
+    <div v-if="!mobileOpen" class="flex items-center justify-center w-full h-20 md:h-40">
+      
       <!--Mobile Menu Hidden in Desktop-->
       <button @click="mobileOpen = true" class="md:hidden focus:outline-none">
         <!-- Hamburger icon -->

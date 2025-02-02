@@ -8,7 +8,7 @@
           O NAMA
         </h1>
         <div class="w-full h-full flex flex-col md:flex-row items-center">
-          <h2 class="shadow-xl bg-emerald-300 text-white font-medium text-2xl md:text-2xl lg:text-4xl w-3/4 md:w-2/3 lg:w-2/3 ml-auto py-10 md:py-12 lg:py-24 px-10 md:px-12 lg:px-24 lg:mr-20">
+          <h2 class="shadow-xl bg-emerald-300 text-white font-medium text-xl md:text-2xl lg:text-4xl w-3/4 md:w-2/3 lg:w-2/3 ml-auto py-10 md:py-12 lg:py-24 px-10 md:px-12 lg:px-24 lg:mr-20">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa sed nihil consequatur deserunt vel animi! Eius expedita soluta molestiae numquam necessitatibus quae, modi corrupti magnam a. Nisi iure necessitatibus laudantium!
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa sed nihil consequatur deserunt vel animi! Eius expedita soluta molestiae numquam necessitatibus quae, modi corrupti magnam a. Nisi iure necessitatibus laudantium!
           </h2>

@@ -1,46 +1,113 @@
 <template>
-  <div class="w-full h-full flex-1 flex-col items-center justify-start">
-    <div class="w-full h-screen flex justify-start">
-      <img src="/img/about_img.jpg" alt="About" 
-           class="-z-10 w-full md:w-9/12 lg:w-8/12 h-screen py-10 pr-10 object-cover rounded-r-full" />
-      <div class="bg-opacity-70 absolute w-full h-full flex flex-col-reverse md:flex-row items-center justify-between">
-        <div class="shadow-xl bg-emerald-400 text-end text-white font-black  py-10 lg:pr-14 md:py-12 md:pl-12 lg:py-14 lg:pl-14 lg:w-full rounded-r-full">
-          <h1 class="text-6xl md:text-7xl lg:text-8xl">
-          O NAMA
-        </h1>
-        
+  <!-- Overall container -->
+  <div class="relative w-full min-h-screen">
+    <!-- MOBILE layout (v-if) -->
+    <div v-if="isMobile" class="relative flex flex-col">
+      <!-- Mobile: Full-width image, then text below -->
+      <img
+        src="/img/about_img.jpg"
+        alt="About"
+        class="w-full h-64 object-cover rounded-b-xl"
+      />
+
+      <!-- Mobile overlay / short highlights -->
+      <div class="flex flex-col bg-emerald-400 bg-opacity-70 p-4 text-white">
+        <h1 class="text-4xl font-black my-2">O NAMA (Mobile)</h1>
+        <p class="text-sm my-2">Visoka razina stručnosti i pažnja prema detaljima</p>
+        <p class="text-sm my-2">Brza i učinkovita izvedba radova</p>
+        <p class="text-sm my-2">Moderna oprema koja omogućuje optimalne rezultate</p>
+        <p class="text-sm my-2">Stručni tim koji razumije potrebe svakog projekta</p>
+      </div>
+
+      <!-- Mobile long text -->
+      <div class="bg-white text-slate-800 p-4 text-justify flex flex-col space-y-4">
+        <h2 class="uppercase font-semibold">
+          S Rastom, vaš vrt ili okućnica postaje prostor u kojem možete uživati tijekom cijele godine.
+        </h2>
+        <h2 class="uppercase font-light">
+          Rast je tvrtka specijalizirana za uređenje okućnica, vrtova i zelenih površina...
+        </h2>
+        <!-- ...continue your text... -->
+      </div>
+    </div>
+
+    <!-- MEDIUM and larger layout (v-else) -->
+    <div v-else class="relative flex min-h-screen">
+      <!-- Medium/Large: Image on the left (or partially), overlay text on top -->
+      <img
+        src="/img/about_img.jpg"
+        alt="About"
+        class="
+          w-full
+          md:w-9/12
+          lg:w-8/12
+          object-cover
+          rounded-r-full
+        "
+      />
+      <div class="absolute inset-0 bg-black bg-opacity-70 flex flex-col md:flex-col-reverse">
+        <!-- Big "O NAMA" heading block -->
+        <div
+          class="
+            bg-emerald-400
+            text-white
+            font-black
+            p-10
+            rounded-r-full
+            md:text-end
+          "
+        >
+          <h1 class="text-5xl md:text-6xl lg:text-7xl xl:text-8xl">O NAMA</h1>
         </div>
-        <div class="w-[2400px] flex flex-col text-white text-center lg:text-xl ml-10 lg:py-14">
-          <h2 class="text-xl font-bold uppercase bg-emerald-400 lg:py-6 lg:px-3 lg:my-2 rounded-l-full">
-            Visoka razina stručnosti i pažnja prema detaljima  
+
+        <!-- Short highlights -->
+        <div class="flex flex-col text-white text-center mb-4 md:ml-10 lg:py-8 space-y-3">
+          <h2 class="text-lg md:text-xl lg:text-2xl font-bold uppercase bg-transparent py-2 px-3">
+            Visoka razina stručnosti i pažnja prema detaljima
           </h2>
-          <h2 class="text-xl font-bold uppercase bg-emerald-400 lg:py-6 lg:px-3 lg:my-2 rounded-l-full">
-            Brza i učinkovita izvedba radova  
+          <h2 class="text-lg md:text-xl lg:text-2xl font-bold uppercase bg-emerald-400 py-2 px-3 rounded-l-full">
+            Brza i učinkovita izvedba radova
           </h2>
-          <h2 class="text-xl font-bold uppercase bg-emerald-400 lg:py-6 lg:px-3 lg:my-2 rounded-l-full">
-            moderna oprema koja omogućuje optimalne rezultate  
+          <h2 class="text-lg md:text-xl lg:text-2xl font-bold uppercase bg-emerald-400 py-2 px-3 rounded-l-full">
+            Moderna oprema koja omogućuje optimalne rezultate
           </h2>
-          <h2 class="text-xl font-bold uppercase bg-emerald-400 lg:py-6 lg:px-3 lg:my-2 rounded-l-full">
+          <h2 class="text-lg md:text-xl lg:text-2xl font-bold uppercase bg-emerald-400 py-2 px-3 rounded-l-full">
             Stručni tim koji razumije potrebe svakog projekta
           </h2>
         </div>
-        <div class="w-full h-full flex flex-col items-center justify-center text-slate-800 lg:text-md pl-10 pr-24 text-justify">
-          <h2 class="my-4 lg:pl-6 font-semibold uppercase">
+
+        <!-- Long text -->
+        <div class="w-full text-slate-800 p-4 md:px-10 lg:px-24 text-justify flex flex-col space-y-4 bg-white/90">
+          <h2 class="uppercase font-semibold">
             S Rastom, vaš vrt ili okućnica postaje prostor u kojem možete uživati tijekom cijele godine.
           </h2>
-          <h2 class="lg:pl-6 lg:py-3 uppercase font-light">
-            Rast je tvrtka specijalizirana za uređenje okućnica, vrtova i zelenih površina. Naš tim stručnjaka, opremljen modernim alatima i tehnikama, posvećen je stvaranju zelenih oaza koje odišu ljepotom i funkcionalnošću. Bilo da se radi o malom vrtu ili velikom masliniku, svaki projekt tretiramo s istom pažnjom i predanošću.
+          <h2 class="uppercase font-light">
+            Rast je tvrtka specijalizirana za uređenje okućnica, vrtova i zelenih površina...
           </h2>
-          <h2 class=" lg:pl-6 lg:py-3 uppercase font-extralight">
-            S dugogodišnjim iskustvom u različitim vrstama projekata, nudimo širok spektar usluga, uključujući projektiranje, košnju, postavljanje travnatih tepiha, navodnjavanje, sadnju biljaka i rad u maslinicima. Bez obzira na to je li teren zahtjevan i nepristupačan, naš tim uvijek pronalazi optimalno rješenje kako bi klijentima pružio najbolje rezultate.
-          </h2>
-          <h2 class="my-4 lg:pl-6 lg:py-3 uppercase font-light">
-            Putujemo širom Hrvatske i susjednih zemalja kako bismo svoje usluge učinili dostupnima svima kojima je potrebno stručno uređenje zelenih površina. Naša fleksibilnost i pouzdanost čine nas idealnim partnerom za projekte svih veličina.
-          </h2>
-          
+          <!-- ...continue your text... -->
         </div>
-       
       </div>
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+import { ref, onMounted, onUnmounted } from 'vue'
+
+// Tracks if the window is less than 768px (the Tailwind "md" breakpoint)
+const isMobile = ref(false)
+
+function checkScreenSize() {
+  // Compare with 768px
+  isMobile.value = window.innerWidth < 768
+}
+
+onMounted(() => {
+  checkScreenSize()
+  window.addEventListener('resize', checkScreenSize)
+})
+
+onUnmounted(() => {
+  window.removeEventListener('resize', checkScreenSize)
+})
+</script>

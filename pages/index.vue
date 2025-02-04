@@ -1,8 +1,8 @@
 <template>
-    <div class="-z-50 w-full h-screen flex-1 flex-col">
+    <div class="-z-50 w-full h-screen flex-1 flex-col bg-violet-400">
         <Header />
         <About />
         <Services />
-        <Contact />
+        <Gallery />
     </div>
 </template>

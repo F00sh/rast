@@ -1,93 +1,42 @@
 <template>
   <!-- Overall container -->
   <div class="relative w-full min-h-screen">
+    
     <!-- MOBILE layout (v-if) -->
-    <div v-if="isMobile" class="relative flex flex-col">
-      <!-- Mobile: Full-width image, then text below -->
+    <div v-if="isMobile" class="h-screen relative flex flex-col items-center">
       <img
         src="/img/about_img.jpg"
         alt="About"
-        class="w-full h-64 object-cover rounded-b-xl"
+        class="absolute -z-10 w-full h-1/2 object-cover rounded-r-full"
       />
-
-      <!-- Mobile overlay / short highlights -->
-      <div class="flex flex-col bg-emerald-400 bg-opacity-70 p-4 text-white">
-        <h1 class="text-4xl font-black my-2">O NAMA (Mobile)</h1>
-        <p class="text-sm my-2">Visoka razina stručnosti i pažnja prema detaljima</p>
-        <p class="text-sm my-2">Brza i učinkovita izvedba radova</p>
-        <p class="text-sm my-2">Moderna oprema koja omogućuje optimalne rezultate</p>
-        <p class="text-sm my-2">Stručni tim koji razumije potrebe svakog projekta</p>
-      </div>
-
-      <!-- Mobile long text -->
-      <div class="bg-white text-slate-800 p-4 text-justify flex flex-col space-y-4">
-        <h2 class="uppercase font-semibold">
-          S Rastom, vaš vrt ili okućnica postaje prostor u kojem možete uživati tijekom cijele godine.
-        </h2>
-        <h2 class="uppercase font-light">
-          Rast je tvrtka specijalizirana za uređenje okućnica, vrtova i zelenih površina...
-        </h2>
-        <!-- ...continue your text... -->
+      <div class="absolute shadow-xl bg-emerald-400 h-1/6 w-6/12 flex flex-col items-center justify-center rounded-b-full">
+        <h1 class="text-white text-4xl uppercase font-bold">o nama</h1>
       </div>
     </div>
 
     <!-- MEDIUM and larger layout (v-else) -->
-    <div v-else class="relative flex min-h-screen">
+    <div v-else class="relative flex h-full w-full">
       <!-- Medium/Large: Image on the left (or partially), overlay text on top -->
       <img
         src="/img/about_img.jpg"
         alt="About"
         class="
-          w-full
-          md:w-9/12
-          lg:w-8/12
+          absolute
+          -z-20
+          w-2/3
+          h-full
           object-cover
-          rounded-r-full
-        "
-      />
-      <div class="absolute inset-0 bg-black bg-opacity-70 flex flex-col md:flex-col-reverse">
-        <!-- Big "O NAMA" heading block -->
-        <div
-          class="
-            bg-emerald-400
-            text-white
-            font-black
-            p-10
-            rounded-r-full
-            md:text-end
-          "
-        >
-          <h1 class="text-5xl md:text-6xl lg:text-7xl xl:text-8xl">O NAMA</h1>
-        </div>
-
-        <!-- Short highlights -->
-        <div class="flex flex-col text-white text-center mb-4 md:ml-10 lg:py-8 space-y-3">
-          <h2 class="text-lg md:text-xl lg:text-2xl font-bold uppercase bg-transparent py-2 px-3">
-            Visoka razina stručnosti i pažnja prema detaljima
-          </h2>
-          <h2 class="text-lg md:text-xl lg:text-2xl font-bold uppercase bg-emerald-400 py-2 px-3 rounded-l-full">
-            Brza i učinkovita izvedba radova
-          </h2>
-          <h2 class="text-lg md:text-xl lg:text-2xl font-bold uppercase bg-emerald-400 py-2 px-3 rounded-l-full">
-            Moderna oprema koja omogućuje optimalne rezultate
-          </h2>
-          <h2 class="text-lg md:text-xl lg:text-2xl font-bold uppercase bg-emerald-400 py-2 px-3 rounded-l-full">
-            Stručni tim koji razumije potrebe svakog projekta
-          </h2>
-        </div>
-
-        <!-- Long text -->
-        <div class="w-full text-slate-800 p-4 md:px-10 lg:px-24 text-justify flex flex-col space-y-4 bg-white/90">
-          <h2 class="uppercase font-semibold">
-            S Rastom, vaš vrt ili okućnica postaje prostor u kojem možete uživati tijekom cijele godine.
-          </h2>
-          <h2 class="uppercase font-light">
-            Rast je tvrtka specijalizirana za uređenje okućnica, vrtova i zelenih površina...
-          </h2>
-          <!-- ...continue your text... -->
-        </div>
+          rounded-r-full"/>
+      <div class="absolute z-auto h-screen w-screen flex items-center justify-start">
+      <div class="bg-emerald-400 flex items-center justify-end w-1/3 h-1/6 rounded-r-full">
+        <h1 class="text-white text-7xl font-bold pr-20">O NAMA</h1>
+      </div>
+      <div>
+        <h2>radimo to i to</h2>
       </div>
     </div>
+    </div>
+  
   </div>
 </template>
 

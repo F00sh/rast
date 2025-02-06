@@ -3,16 +3,29 @@
               flex flex-col
               items-center
               justify-start
-              px-14">
+              px-14 pt-24">
 
-    <div class="bg-white
-                w-full h-1/2
-                flex flex-col">
-        <h1>
-            gallery
+    <div class="w-full h-max
+                flex flex-col
+                pb-14">
+
+        <h1 class="bg-green-400
+                   text-center
+                   text-white
+                   text-7xl
+                   font-black
+                   uppercase
+                   py-10">
+                   
+                   slike
+
         </h1>
     </div>
-
+    <div class="bg-white
+                flex flex-col
+                w-full h-1/2">
+        slike
+    </div>
     <div class="bg-teal-300
                 items-center
                 justify-center
@@ -23,7 +36,9 @@
                  text-xl
                  uppercase
                  font-medium">
-            opis slike
+                 
+                 opis slike
+
         </h3>
     </div>
   </div>

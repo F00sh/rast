@@ -2,7 +2,7 @@
   <div class="text-white
               relative
               top-0
-              mb-32 lg:mb-14
+              mb-0 lg:mb-14
               w-full h-screen
               flex flex-col
               items-center
@@ -12,7 +12,7 @@
                 -z-10
                 bg-green-300
                 right-0
-                w-full lg:w-3/4 h-2/3 lg:h-full
+                w-full lg:w-3/4 h-3/4 lg:h-full
                 rounded-bl-full
                 shadow-2xl">
     </div>

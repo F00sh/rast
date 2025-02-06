@@ -58,9 +58,7 @@
                     py-10 px-10
                     shadow-lg">
 
-          <h3 class="text-xl font-light">
-            Tvrtka Rast specijalizirana je za stvaranje zelenih oaza prilagođenih vašim potrebama. S dugogodišnjim iskustvom, stručnim timom i modernom opremom, osiguravamo visokokvalitetne usluge od projektiranja vrtova do održavanja maslinika. Vaša okućnica u našim rukama postaje mjesto opuštanja i prirodne ljepote.
-          </h3>
+          
         </div>  
       </div>
       

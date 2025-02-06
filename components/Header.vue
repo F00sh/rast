@@ -1,23 +1,35 @@
 <template>
-  <div class="w-full h-screen flex items-start">
-    <img src="/img/header_img.svg" alt="header" class="w-full h-3/4 object-cover rounded-bl-full shadow-2xl">
+  <div class="relative
+              -z-50
+              w-full 
+              h-screen 
+              flex 
+              items-start 
+              lg:justify-center">
+
+    <img src="/img/header_img.svg" alt="header" class="absolute
+                                                       w-full h-3/4 lg:w-10/12 
+                                                       object-cover 
+                                                       rounded-bl-full lg:rounded-b-full
+                                                       shadow-xl">
+
   </div>
-  <div class="absolute 
+  <div class="lg:relative
               top-0 
               bg-opacity-80 
-              w-full 
+              w-full lg:w-1/3 
               h-full 
               flex-col 
-              justify-center 
+              justify-start 
               items-center 
-              pt-32 px-14">
+              px-14 lg:px-0 lg:mx-48">
 
-    <div class="w-full 
+    <div class="lg:absolute
+                w-full 
                 h-max 
                 flex flex-col 
                 justify-center 
                 items-center 
-                shadow-xl
                 pb-14">
 
       <h1 class="bg-green-400
@@ -28,7 +40,8 @@
                   font-black 
                   text-white
                   text-center 
-                  py-10">
+                  py-10
+                  shadow-xl">
                   
                   rast
         </h1>
@@ -37,7 +50,6 @@
                 flex flex-col 
                 justify-center 
                 items-center 
-                shadow-xl
                 pb-24">
 
       <h2 class="bg-teal-400
@@ -48,7 +60,8 @@
                   font-bold
                   text-white
                   text-center
-                  py-10 px-10">
+                  py-10 px-10
+                  shadow-xl">
                   
                   Vaš partner za uređenje vrtova i okućnica
         </h2>
@@ -66,7 +79,8 @@
                   font-medium
                   text-white
                   text-center
-                  py-10 px-10">
+                  py-10 px-10
+                  shadow-xl">
         Tvrtka Rast specijalizirana je za stvaranje zelenih oaza prilagođenih vašim potrebama.<br/><br/> S dugogodišnjim iskustvom, stručnim timom i modernom opremom, osiguravamo visokokvalitetne usluge od projektiranja vrtova do održavanja maslinika.<br/><br/> Vaša okućnica u našim rukama postaje mjesto opuštanja i prirodne ljepote.  
       </h3>
     </div>

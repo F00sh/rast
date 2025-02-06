@@ -1,41 +1,45 @@
 <template>
   <div class="w-full min-h-screen">
     <div class="absolute -z-10 flex flex-col">
-        <img src="/img/about_img.jpg" alt="about" class="w-full h-1/2 object-cover rounded-r-full shadow-2xl">
-        <img src="/img/about_img.jpg" alt="about2" class="w-full h-1/2 object-cover rounded-l-full shadow-2xl">
-        <img src="/img/about_img.jpg" alt="about" class="w-full h-1/2 object-cover rounded-r-full shadow-2xl">
+        <img src="/img/about_img.jpg" alt="about" class="w-full h-1/2 object-cover rounded-tr-full shadow-2xl">
+        <img src="/img/about_img.jpg" alt="about2" class="w-full h-1/2 object-cover shadow-2xl">
+        <img src="/img/about_img.jpg" alt="about" class="w-full h-1/2 object-cover rounded-bl-full shadow-2xl">
     </div>
     
-    <div class="flex flex-col 
+    <div class="flex flex-col
+                items-center
+                justify-center
                 w-full h-full 
-                pt-24">
+                pt-24
+                lg:px-48">
 
-                <div class="w-full 
-                h-max 
-                flex flex-col 
-                justify-center 
-                items-center 
-                shadow-xl
-                pb-24 pl-14">
+        <div class="w-full h-max 
+                    flex flex-col
+                    right-0 
+                    justify-center
+                    items-center lg:items-end
+                    pb-24 pl-14 lg:pl-0">
 
-      <h1 class="bg-green-400
-                  bg-opacity-90 
-                  w-full 
-                  text-7xl 
-                  uppercase 
-                  font-black 
-                  text-white
-                  text-center 
-                  py-10">
+            <h1 class=" bg-green-400
+                        
+                        bg-opacity-90 
+                        w-full lg:w-1/3
+                        text-7xl 
+                        uppercase 
+                        font-black 
+                        text-white
+                        text-center 
+                        py-10
+                        shadow-xl">
                   
                   o nama
-        </h1>
-    </div>
-        <div class="w-full h-max 
+            </h1>
+        </div>
+        <div class="w-full h-max lg:w-2/3 
                     flex flex-col 
                     justify-center 
-                    items-center 
-                    shadow-xl
+                    items-center lg:justify-end
+                    
                     pb-24 pr-14">
 
             <h2 class="bg-teal-400
@@ -90,7 +94,10 @@
                 Stručni tim koji razumije potrebe svakog projekta
             </h2>
         </div>
-        <div class="px-14">
+        <div class="flex
+                    flex-col
+                    lg:flex-row
+                    ">
 
             <h2 class="text-md
                        text-white

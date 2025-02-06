@@ -51,15 +51,7 @@
             Vaš partner za uređenje vrtova i okućnica
           </h2>
         </div>
-        <div class="bg-green-400
-                    bg-opacity-80
-                    w-8/12 lg:w-4/12 h-max
-                    text-center
-                    py-10 px-10
-                    shadow-lg">
-
-          
-        </div>  
+         
       </div>
       
     </div>

@@ -1,13 +1,13 @@
 <template>
-  <div class="z-50 sticky top-0 w-full h-24 flex justify-between items-center bg-slate-400">
-    <div class="h-28 w-28 flex items-center justify-center p-4 object-cover">
+  <div class="z-50 sticky top-0 w-full h-24 flex justify-between items-center bg-emerald-400 shadow-xl">
+    <div class="h-28 w-28 flex items-center justify-center p-5 object-cover">
       <img src="/img/logo_img.svg" alt="R">
     </div>
     <div class="text-white text-xl font-semibold">
-      <ul class="flex pr-4 space-x-4">
-        <li class="border-2 border-white py-2 px-4 rounded-full">about</li>
-        <li  class="border-2 border-white py-2 px-4 rounded-full">services</li>
-        <li  class="border-2 border-white py-2 px-4 rounded-full">contact</li>
+      <ul class="flex pr-5 space-x-5">
+        <li class="bg-green-300 py-2 px-4 shadow-md">about</li>
+        <li  class="bg-green-300 py-2 px-4 shadow-md">services</li>
+        <li  class="bg-green-300 border-white py-2 px-4 shadow-md">contact</li>
       </ul>
     </div>
   </div>

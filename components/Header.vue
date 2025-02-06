@@ -1,90 +1,69 @@
 <template>
-  <div class="relative
-              -z-50
-              w-full 
-              h-screen 
-              flex 
-              items-start 
-              lg:justify-center">
+  <div class="text-white
+              relative
+              top-0
+              mb-32 lg:mb-14
+              w-full h-screen
+              flex flex-col
+              items-center
+              justify-start">
 
-    <img src="/img/header_img.svg" alt="header" class="absolute
-                                                       w-full h-3/4 lg:w-10/12 
-                                                       object-cover 
-                                                       rounded-bl-full lg:rounded-b-full
-                                                       shadow-xl">
-
-  </div>
-  <div class="absolute
-              top-40 lg:top-50
-              bg-opacity-80 
-              w-full lg:w-1/3 
-              h-full 
-              flex-col 
-              justify-start 
-              items-center 
-              px-14 lg:px-0 lg:mx-48">
-
-    <div class="
-                w-full 
-                h-max 
-                flex flex-col 
-                justify-center 
-                items-center 
-                pb-14">
-
-      <h1 class="bg-green-400
-                  bg-opacity-90 
-                  w-full 
-                  text-7xl 
-                  uppercase 
-                  font-black 
-                  text-white
-                  text-center 
-                  py-10
-                  shadow-xl">
-                  
-                  rast
-        </h1>
+    <div class="absolute
+                -z-10
+                bg-green-300
+                right-0
+                w-full lg:w-3/4 h-2/3 lg:h-full
+                rounded-bl-full
+                shadow-2xl">
     </div>
-    <div class="
-                w-full h-max 
-                flex flex-col 
-                justify-center 
-                items-center 
-                pb-24">
 
-      <h2 class="bg-teal-400
-                  bg-opacity-90 
-                  w-full 
-                  text-xl 
-                  uppercase 
-                  font-bold
-                  text-white
-                  text-center
-                  py-10 px-10
-                  shadow-xl">
-                  
-                  Vaš partner za uređenje vrtova i okućnica
-        </h2>
-    </div>
-    <div class="
-                w-full h-max 
-                flex flex-col 
-                justify-center 
-                items-center 
-                shadow-xl">
+    <div class="w-full h-full
+                pl-5
+                flex flex-col
+                items-center
+                justify-start
+                pt-32">
 
-      <h3 class="bg-slate-400
-                  bg-opacity-90
-                  w-full
-                  text-md
-                  font-medium
-                  text-white
-                  text-center
-                  py-10 px-10
-                  shadow-xl">
-        Tvrtka Rast specijalizirana je za stvaranje zelenih oaza prilagođenih vašim potrebama.<br/><br/> S dugogodišnjim iskustvom, stručnim timom i modernom opremom, osiguravamo visokokvalitetne usluge od projektiranja vrtova do održavanja maslinika.<br/><br/> Vaša okućnica u našim rukama postaje mjesto opuštanja i prirodne ljepote.  
-      </h3>
+      <div class="w-full h-2/3
+                  flex flex-col
+                  items-start
+                  justify-start">
+
+        <div class="bg-emerald-400
+                    w-8/12 lg:w-4/12
+                    text-center
+                    py-10 mb-0
+                    shadow-lg">
+
+          <h1 class="text-7xl 
+                     uppercase 
+                     font-black">
+            rast
+          </h1>
+        </div>
+        <div class="bg-green-500
+                    w-8/12 lg:w-4/12
+                    text-center
+                    py-10 px-10
+                    shadow-lg">
+                    
+          <h2 class="text-2xl uppercase font-semibold">
+            Vaš partner za uređenje vrtova i okućnica
+          </h2>
+        </div>
+        <div class="bg-green-400
+                    bg-opacity-80
+                    w-8/12 lg:w-4/12 h-max
+                    text-center
+                    py-10 px-10
+                    shadow-lg">
+
+          <h3 class="text-xl font-light">
+            Tvrtka Rast specijalizirana je za stvaranje zelenih oaza prilagođenih vašim potrebama. S dugogodišnjim iskustvom, stručnim timom i modernom opremom, osiguravamo visokokvalitetne usluge od projektiranja vrtova do održavanja maslinika. Vaša okućnica u našim rukama postaje mjesto opuštanja i prirodne ljepote.
+          </h3>
+        </div>  
+      </div>
+      
     </div>
   </div>
 </template>

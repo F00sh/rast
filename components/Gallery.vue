@@ -7,12 +7,14 @@
 
     <div class="w-full h-max
                 flex flex-col
+                items-center
                 pb-14">
 
         <h1 class="bg-green-400
+                   lg:w-4/12
                    text-center
                    text-white
-                   text-7xl
+                   text-5xl
                    font-black
                    uppercase
                    py-10">
@@ -23,13 +25,13 @@
     </div>
     <div class="bg-white
                 flex flex-col
-                w-full h-1/2">
+                w-full  lg:w-4/12 h-1/2">
         slike
     </div>
     <div class="bg-teal-300
                 items-center
                 justify-center
-                w-full h-max
+                w-full lg:w-4/12 h-max
                 py-5">
         <h3 class="text-center
                  text-white

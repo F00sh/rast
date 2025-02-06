@@ -18,9 +18,10 @@
                 justify-center 
                 items-center 
                 shadow-xl
-                pb-4">
+                pb-14">
 
-      <h1 class="bg-green-400 
+      <h1 class="bg-green-400
+                  bg-opacity-90 
                   w-full 
                   text-7xl 
                   uppercase 
@@ -37,9 +38,10 @@
                 justify-center 
                 items-center 
                 shadow-xl
-                pb-4">
+                pb-24">
 
-      <h2 class="bg-teal-400 
+      <h2 class="bg-teal-400
+                  bg-opacity-90 
                   w-full 
                   text-xl 
                   uppercase 
@@ -58,6 +60,7 @@
                 shadow-xl">
 
       <h3 class="bg-slate-400
+                  bg-opacity-90
                   w-full
                   text-md
                   font-medium

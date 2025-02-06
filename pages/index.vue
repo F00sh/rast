@@ -1,6 +1,7 @@
 <template>
-    <div class="-z-50 w-full h-full flex-1 flex-col bg-green-200">
+    <div class="-z-20 w-full h-full flex-1 flex-col bg-slate-100">
         <Header />
         <About />
+        <Gallery />
     </div>
 </template>

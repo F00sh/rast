@@ -1,5 +1,5 @@
 <template>
-  <div class="z-50 absolute w-full h-28 flex justify-between items-center">
+  <div class="z-50 sticky top-0 w-full h-24 flex justify-between items-center bg-slate-400">
     <div class="h-28 w-28 flex items-center justify-center p-4 object-cover">
       <img src="/img/logo_img.svg" alt="R">
     </div>

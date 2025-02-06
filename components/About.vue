@@ -1,17 +1,20 @@
 <template>
-  <div class="w-full min-h-screen">
+  <div class="w-full h-screen relative">
     <div class="absolute -z-10 flex flex-col">
-        <img src="/img/about_img.jpg" alt="about" class="w-full h-1/2 object-cover rounded-tr-full shadow-2xl">
-        <img src="/img/about_img.jpg" alt="about2" class="w-full h-1/2 object-cover shadow-2xl">
-        <img src="/img/about_img.jpg" alt="about" class="w-full h-1/2 object-cover rounded-bl-full shadow-2xl">
+        <div class="">
+            <img src="/img/about_img.jpg" alt="about" class="w-full h-1/2 object-cover rounded-tr-full shadow-2xl">
+            <img src="/img/about_img.jpg" alt="about2" class="w-full h-1/2 object-cover shadow-2xl">
+            <img src="/img/about_img.jpg" alt="about3" class="w-full h-1/2 object-cover rounded-bl-full shadow-2xl">
+        </div>
     </div>
     
     <div class="flex flex-col
                 items-center
                 justify-center
-                w-full h-full 
-                pt-24
-                lg:px-48">
+                w-full h-screen 
+            
+                lg:px-48
+                relative">
 
         <div class="w-full h-max 
                     flex flex-col

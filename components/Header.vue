@@ -14,8 +14,8 @@
                                                        shadow-xl">
 
   </div>
-  <div class="lg:relative
-              top-0 
+  <div class="absolute
+              top-40 lg:top-50
               bg-opacity-80 
               w-full lg:w-1/3 
               h-full 
@@ -24,7 +24,7 @@
               items-center 
               px-14 lg:px-0 lg:mx-48">
 
-    <div class="lg:absolute
+    <div class="
                 w-full 
                 h-max 
                 flex flex-col 
@@ -46,7 +46,8 @@
                   rast
         </h1>
     </div>
-    <div class="w-full h-max 
+    <div class="
+                w-full h-max 
                 flex flex-col 
                 justify-center 
                 items-center 
@@ -66,7 +67,8 @@
                   Vaš partner za uređenje vrtova i okućnica
         </h2>
     </div>
-    <div class="w-full h-max 
+    <div class="
+                w-full h-max 
                 flex flex-col 
                 justify-center 
                 items-center 

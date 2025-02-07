@@ -32,7 +32,7 @@
                   justify-start">
 
         <div class="bg-emerald-400
-                    bg-opacity-85
+                    opacity-85
                     w-8/12 lg:w-4/12
                     text-center
                     py-10 mb-0
@@ -46,7 +46,7 @@
           </h1>
         </div>
         <div class="bg-green-500
-                    bg-opacity-85
+                    opacity-85
                     w-8/12 lg:w-4/12
                     text-center
                     py-10 px-10

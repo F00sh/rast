@@ -87,23 +87,24 @@
                 Stručni tim koji razumije potrebe svakog projekta
             </h2>
           </div>
-          <div class="bg-green-400
-                      bg-opacity-80
-                      w-full lg:w-4/12
-                      text-justify
-                      py-14 px-14
-                      shadow-lg">
-  
-            <h3 class="text-md uppercase font-light">
-                Rast je tvrtka specijalizirana za uređenje okućnica, vrtova i zelenih površina. Naš tim stručnjaka, opremljen modernim alatima i tehnikama, posvećen je stvaranju zelenih oaza koje odišu ljepotom i funkcionalnošću. Bilo da se radi o malom vrtu ili velikom masliniku, svaki projekt tretiramo s istom pažnjom i predanošću.
-                <br/><br/><br/>
-                S dugogodišnjim iskustvom u različitim vrstama projekata, nudimo širok spektar usluga, uključujući projektiranje, košnju, postavljanje travnatih tepiha, navodnjavanje, sadnju biljaka i rad u maslinicima. Bez obzira na to je li teren zahtjevan i nepristupačan, naš tim uvijek pronalazi optimalno rješenje kako bi klijentima pružio najbolje rezultate.
-                <br/><br/><br/>
-                Putujemo širom Hrvatske i susjednih zemalja kako bismo svoje usluge učinili dostupnima svima kojima je potrebno stručno uređenje zelenih površina. Naša fleksibilnost i pouzdanost čine nas idealnim partnerom za projekte svih veličina.
-            </h3>
-          </div>  
+          <div class="relative flex w-full lg:w-4/12 text-left py-14 px-14 shadow-lg">
+  <!-- Glass effect sloj -->
+  <div class="absolute inset-0 z-0 bg-emerald-700/30 backdrop-blur-xs rounded-lg"></div>
+
+  <!-- Tekst s višim z-index-om da ne bude zahvaćen blur efektom -->
+  <div class="relative z-10">
+    <h3 class="text-md text-slate-200 uppercase font-normal">
+      Rast je tvrtka specijalizirana za uređenje okućnica, vrtova i zelenih površina. Naš tim stručnjaka, opremljen modernim alatima i tehnikama, posvećen je stvaranju zelenih oaza koje odišu ljepotom i funkcionalnošću. Bilo da se radi o malom vrtu ili velikom masliniku, svaki projekt tretiramo s istom pažnjom i predanošću.
+      <br /><br /><br />
+      S dugogodišnjim iskustvom u različitim vrstama projekata, nudimo širok spektar usluga, uključujući projektiranje, košnju, postavljanje travnatih tepiha, navodnjavanje, sadnju biljaka i rad u maslinicima. Bez obzira na to je li teren zahtjevan i nepristupačan, naš tim uvijek pronalazi optimalno rješenje kako bi klijentima pružio najbolje rezultate.
+      <br /><br /><br />
+      Putujemo širom Hrvatske i susjednih zemalja kako bismo svoje usluge učinili dostupnima svima kojima je potrebno stručno uređenje zelenih površina. Naša fleksibilnost i pouzdanost čine nas idealnim partnerom za projekte svih veličina.
+    </h3>
+  </div>
+</div>
+
         </div>
         
-      </div>
     </div>
-  </template>
+  </div>
+</template>

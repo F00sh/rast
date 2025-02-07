@@ -115,7 +115,7 @@
           </h2>
         </div>
         <div class="bg-green-400
-                    bg-opacity-80
+                    opacity-80
                     w-full lg:w-4/12
                     text-justify
                     py-14 px-14

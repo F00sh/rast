@@ -1,5 +1,6 @@
 <template>
-  <div class="z-50 sticky top-0 w-full h-24 flex justify-between items-center bg-emerald-400 shadow-xl">
+  <div class="sticky top-0 left-0">
+    <div class="z-50 absolute top-0 w-full h-24 flex justify-between items-center shadow-xl">
     <div class="h-28 w-28 flex items-center justify-center p-5 object-cover">
       <img src="/img/logo_img.svg" alt="R">
     </div>
@@ -10,5 +11,6 @@
         <li  class="bg-green-300 border-white py-2 px-4 shadow-md">contact</li>
       </ul>
     </div>
+  </div>
   </div>
 </template>

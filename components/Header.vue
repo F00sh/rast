@@ -16,7 +16,7 @@
                 rounded-bl-full
                 shadow-2xl
                 bg-center bg-cover bg-no-repeat"
-                style="background-image: url('/img/Header_1.jpg')">
+                style="background-image: url('/img/header_1.jpg')">
     </div>
 
     <div class="w-full h-full

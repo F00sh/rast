@@ -1,7 +1,7 @@
 <template>
     <div class="relative
                 
-                mb-32 lg:mb-14
+                mb-32 lg:mb-60
                 text-white
                 top-0
                 w-full h-full
@@ -13,14 +13,14 @@
                   -z-10
                   bg-green-300
                   w-full lg:w-3/4 h-full
-                  rounded-r-full
+                  rounded-br-full
                   shadow-2xl
                   bg-center bg-cover bg-no-repeat"
                   style="background-image: url('/img/about_1.jpg')">
       </div>
   
       <div class="w-full h-full
-                  px-5
+                  px-5 lg:pr-60
                   flex flex-col
                   items-center
                   justify-center">

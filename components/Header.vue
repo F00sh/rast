@@ -2,7 +2,7 @@
   <div class="text-white
               relative
               top-0
-              mb-0 lg:mb-14
+              mb-0 lg:mb-60
               w-full h-screen
               flex flex-col
               items-center
@@ -20,7 +20,7 @@
     </div>
 
     <div class="w-full h-full
-                pl-5
+                pl-10 lg:pl-60
                 flex flex-col
                 items-center
                 justify-start

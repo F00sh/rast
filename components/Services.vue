@@ -14,14 +14,14 @@
                 -z-10
                 bg-green-300
                 w-full lg:w-3/4 h-full
-                rounded-l-full
+                rounded-bl-full
                 shadow-2xl
                  bg-center bg-cover bg-no-repeat"
                   style="background-image: url('/img/services_2.jpg')">
     </div>
 
     <div class="w-full h-full
-                px-5
+                px-5 lg:pl-60
                 flex flex-col
                 items-center
                 justify-center">

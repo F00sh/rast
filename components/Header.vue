@@ -15,8 +15,9 @@
                 w-full lg:w-3/4 h-3/4 lg:h-full
                 rounded-bl-full
                 shadow-2xl
-                bg-center bg-cover bg-no-repeat"
-                style="background-image: url('/img/header_1.jpg')">
+                bg-center bg-cover bg-no-repeat
+                opacity-90
+                bg-[url(/img/header_1.jpg)]">
     </div>
 
     <div class="w-full h-full
@@ -52,14 +53,17 @@
                     py-10 px-10
                     rounded-bl-full
                     shadow-lg">
-                    
+
           <h2 class="text-2xl uppercase font-semibold">
             Vaš partner za uređenje vrtova i okućnica
           </h2>
         </div>
-         
+
       </div>
-      
+
     </div>
+   <div class="animate-expand-width bg-amber-600 w-50 h-50">
+    
+   </div>
   </div>
 </template>

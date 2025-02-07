@@ -14,7 +14,9 @@
                 right-0
                 w-full lg:w-3/4 h-3/4 lg:h-full
                 rounded-bl-full
-                shadow-2xl">
+                shadow-2xl
+                bg-center bg-cover bg-no-repeat"
+                style="background-image: url('/img/Header_1.jpg')">
     </div>
 
     <div class="w-full h-full
@@ -30,9 +32,11 @@
                   justify-start">
 
         <div class="bg-emerald-400
+                    bg-opacity-85
                     w-8/12 lg:w-4/12
                     text-center
                     py-10 mb-0
+                    rounded-tr-full
                     shadow-lg">
 
           <h1 class="text-7xl 
@@ -42,9 +46,11 @@
           </h1>
         </div>
         <div class="bg-green-500
+                    bg-opacity-85
                     w-8/12 lg:w-4/12
                     text-center
                     py-10 px-10
+                    rounded-bl-full
                     shadow-lg">
                     
           <h2 class="text-2xl uppercase font-semibold">

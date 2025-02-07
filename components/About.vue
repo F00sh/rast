@@ -14,7 +14,9 @@
                   bg-green-300
                   w-full lg:w-3/4 h-full
                   rounded-r-full
-                  shadow-2xl">
+                  shadow-2xl
+                  bg-center bg-cover bg-no-repeat"
+                  style="background-image: url('/img/about_1.jpg')">
       </div>
   
       <div class="w-full h-full
@@ -32,6 +34,7 @@
                       w-8/12 lg:w-4/12
                       text-center
                       py-10 px-10 mb-2
+                      rounded-tr-full rounded-bl-full
                       shadow-lg">
   
             <h1 class="text-5xl 
@@ -41,42 +44,46 @@
             </h1>
           </div>
           <div class="bg-green-500
-                      w-8/12 lg:w-4/12
+                      w-10/12 lg:w-4/12
                       text-center
-                      py-3 px-5 mb-2
+                      py-5 px-10 mb-2
+                      rounded-tl-full rounded-br-full
                       shadow-lg">
                       
-            <h2 class="text-xl uppercase font-semibold">
+            <h2 class="text-lg uppercase font-semibold">
                 Visoka razina stručnosti i pažnja prema detaljima
             </h2>
           </div>
           <div class="bg-green-500
-                      w-8/12 lg:w-4/12
+                      w-10/12 lg:w-4/12
                       text-center
-                      py-3 px-5 mb-2
+                      py-5 px-10 mb-2
+                      rounded-bl-full rounded-tr-full
                       shadow-lg">
                       
-            <h2 class="text-xl uppercase font-semibold">
+            <h2 class="text-lg uppercase font-semibold">
                 Brza i učinkovita izvedba radova 
             </h2>
           </div>
           <div class="bg-green-500
-                      w-8/12 lg:w-4/12
+                      w-10/12 lg:w-4/12
                       text-center
-                      py-3 px-5 mb-2
+                      py-5 px-10 mb-2
+                      rounded-tl-full rounded-br-full
                       shadow-lg">
                       
-            <h2 class="text-xl uppercase font-semibold">
+            <h2 class="text-lg uppercase font-semibold">
                 Korištenje moderne opreme koja omogućuje optimalne rezultate  
             </h2>
           </div>
           <div class="bg-green-500
-                      w-8/12 lg:w-4/12
+                      w-10/12 lg:w-4/12
                       text-center
-                      py-3 px-5 mb-5
+                      py-5 px-10 mb-5
+                      rounded-bl-full rounded-tr-full
                       shadow-lg">
                       
-            <h2 class="text-xl uppercase font-semibold">
+            <h2 class="text-lg uppercase font-semibold">
                 Stručni tim koji razumije potrebe svakog projekta
             </h2>
           </div>

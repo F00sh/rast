@@ -15,7 +15,9 @@
                 bg-green-300
                 w-full lg:w-3/4 h-full
                 rounded-l-full
-                shadow-2xl">
+                shadow-2xl
+                 bg-center bg-cover bg-no-repeat"
+                  style="background-image: url('/img/services_2.jpg')">
     </div>
 
     <div class="w-full h-full
@@ -33,6 +35,7 @@
                     w-8/12 lg:w-4/12
                     text-center
                     py-10 px-10 mb-2
+                    rounded-tl-full rounded-br-full
                     shadow-lg">
 
           <h1 class="text-5xl 

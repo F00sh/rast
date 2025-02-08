@@ -25,7 +25,7 @@
                 flex flex-col
                 items-center
                 justify-start
-                pt-32 lg:pt-24">
+                pt-20 lg:pt-24">
 
       <div class="w-full h-2/3
                   flex flex-col

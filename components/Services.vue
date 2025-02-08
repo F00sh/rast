@@ -31,14 +31,14 @@
                   items-start
                   justify-start">
 
-        <div class="bg-emerald-400/80 backdrop-blur-xs
+        <div class="bg-orange-500/70 backdrop-blur-xs
                     w-8/12 lg:w-4/12
                     text-center
                     py-10 px-10 mb-5
                     rounded-tl-full rounded-br-full
                     shadow-lg">
 
-          <h1 class="text-3xl 
+          <h1 class="text-3xl lg:text-5xl
                      uppercase 
                      font-black">
             što nudimo
@@ -143,9 +143,9 @@
 
         </div>
 
-        <div class="relative flex flex-col w-3/4 h-160 lg:w-full justify-start bg-slate-100/80 backdrop-blur-md">
+        <div class="relative flex flex-col w-3/4 h-full lg:w-1/3 justify-start bg-slate-100/80 backdrop-blur-md">
           <!-- Glass effect sloj -->
-           <div class="absolute top-0 left-0 p-7 lg:p-10 lg:w-120 text-md lg:text-sm text-slate-900 font-light">
+           <div class="top-0 left-0 p-7 lg:p-10 lg:w-full text-md lg:text-sm text-slate-900 font-light">
             <h3>{{ usluge_mali_1 }}</h3><br>
             <h3>{{ usluge_mali_2 }}</h3><br>
             

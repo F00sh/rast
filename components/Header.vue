@@ -32,15 +32,17 @@
                   items-start
                   justify-start">
 
-        <div class="bg-emerald-400
-                    opacity-85
+        <div class=" bg-emerald-400
+                    
                     w-8/12 lg:w-4/12
                     text-center
                     py-10 mb-0
                     rounded-tr-full
                     shadow-lg">
 
-          <h1 class="text-7xl 
+          <h1 class="font-Bodoni
+                     opacity-100
+                     text-7xl 
                      uppercase 
                      font-black">
             rast
@@ -62,8 +64,5 @@
       </div>
 
     </div>
-   <div class="animate-expand-width bg-amber-600 w-50 h-50">
-    
-   </div>
   </div>
 </template>

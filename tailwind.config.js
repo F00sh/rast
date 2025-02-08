@@ -10,6 +10,8 @@ module.exports = {
     extend: {
       fontFamily: {
         Crimson_bold: ["Crimson", "sans-serif"],
+        Bodoni_Moda: ["Bodoni Moda", "serif"],
+        
       },
       colors: {
         brand: {

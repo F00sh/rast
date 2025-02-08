@@ -1,21 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 @import 'tailwindcss';
 
 html, body {
   scroll-behavior: smooth;
-}
-
-@layer utilities {
-  @keyframes expand-width {
-    0% {
-      width: 0%;
-      opacity: 0%;
-    }
-    100% {
-      width: 100%;
-      opacity: 100%;
-    }
-  }
-  .animate-expand-width {
-    animation: expand-width 1s ease-in-out infinite alternate;
-  }
+  
 }

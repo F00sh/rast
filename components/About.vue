@@ -12,7 +12,7 @@
     <div class="absolute
                   -z-10
                   bg-green-300
-                  w-full lg:w-3/4 h-full
+                  w-full lg:w-3/4 h-2/3
                   rounded-br-full
                   shadow-2xl
                   bg-center bg-cover bg-no-repeat bg-[url(/img/about_1.jpg)]">
@@ -42,57 +42,40 @@
             više o nama
           </h1>
         </div>
-        <div class="bg-green-500
-                      w-10/12 lg:w-4/12
-                      text-center
-                      py-5 px-10 mb-2
-                      rounded-tl-full rounded-br-full
-                      shadow-lg">
 
-          <h2 class="text-lg uppercase font-semibold">
+        <!--podnaslovi-->
+
+        <div class="relative
+                    flex flex-col text-center
+                    items-center justify-center
+                    mb-10">
+          <h2 class="text-lg
+                     flex items-center justify-center 
+                     uppercase 
+                     font-semibold 
+                     w-[600px] h-10">
             Visoka razina stručnosti i pažnja prema detaljima
           </h2>
-        </div>
-        <div class="bg-green-500
-                      w-10/12 lg:w-4/12
+          <div class="absolute top-0 -z-10
+                    bg-green-500/40
+                      backdrop-blur-xs
+                      w-[600px] h-10
                       text-center
-                      py-5 px-10 mb-2
-                      rounded-bl-full rounded-tr-full
-                      shadow-lg">
-
-          <h2 class="text-lg uppercase font-semibold">
-            Brza i učinkovita izvedba radova
-          </h2>
-        </div>
-        <div class="bg-green-500
-                      w-10/12 lg:w-4/12
-                      text-center
-                      py-5 px-10 mb-2
+                      
                       rounded-tl-full rounded-br-full
                       shadow-lg">
-
-          <h2 class="text-lg uppercase font-semibold">
-            Korištenje moderne opreme koja omogućuje optimalne rezultate
-          </h2>
+          </div>
         </div>
-        <div class="bg-green-500
-                      w-10/12 lg:w-4/12
-                      text-center
-                      py-5 px-10 mb-5
-                      rounded-bl-full rounded-tr-full
-                      shadow-lg">
-
-          <h2 class="text-lg uppercase font-semibold">
-            Stručni tim koji razumije potrebe svakog projekta
-          </h2>
-        </div>
+        
+        
+        
         <div class="relative flex w-full lg:w-4/12 text-left py-14 px-14 shadow-lg">
           <!-- Glass effect sloj -->
-          <div class="absolute inset-0 z-0 bg-emerald-700/30 backdrop-blur-xs rounded-lg"></div>
+          <div class="absolute inset-0 z-0 bg-slate-100/70 backdrop-blur-xs rounded-lg"></div>
 
           <!-- Tekst s višim z-index-om da ne bude zahvaćen blur efektom -->
           <div class="relative z-10">
-            <h3 class="text-md text-slate-200 uppercase font-normal">
+            <h3 class="text-md text-slate-700 uppercase font-normal">
               {{ text_about_long_1 }}
               <br /><br /><br />
               {{ text_about_long_2 }}

@@ -1,7 +1,7 @@
 <template>
   <div id="services" class="relative
               
-              
+              mb-20 lg:mb-10
               text-white
               top-0
               w-full h-full
@@ -143,19 +143,14 @@
 
         </div>
 
-        <div class="relative flex flex-col w-full h-160 lg:w-full justify-start">
+        <div class="relative flex flex-col w-3/4 h-160 lg:w-full justify-start bg-slate-100/80 backdrop-blur-md">
           <!-- Glass effect sloj -->
-           <div class="absolute top-0 left-0 p-5 lg:p-10 lg:w-120 text-sm text-slate-900 font-light">
+           <div class="absolute top-0 left-0 p-7 lg:p-10 lg:w-120 text-md lg:text-sm text-slate-900 font-light">
             <h3>{{ usluge_mali_1 }}</h3><br>
             <h3>{{ usluge_mali_2 }}</h3><br>
             
            </div>
-          <div class="absolute top-0 left-0 -z-10
-                      p-5 lg:p-10
-                      w-full lg:w-120
-                      h-60 lg:h-70
-                      bg-slate-100/70 
-                      backdrop-blur-md shadow-md"></div>
+         
 
           <!-- Tekst s višim z-index-om da ne bude zahvaćen blur efektom -->
           

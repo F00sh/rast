@@ -1,7 +1,7 @@
 <template>
   <div id="about" class="relative
                 
-                mb-5 lg:mb-10
+                mb-20 lg:mb-10
                 text-white
                 top-0
                 w-full h-full
@@ -108,7 +108,7 @@
         
         <div class="relative flex flex-col pb-5 w-3/4 h-full lg:w-1/3 justify-end bg-slate-100/70 backdrop-blur-md">
           <!-- Glass effect sloj -->
-           <div class="top-0 right-0 p-5 lg:p-10 lg:w-full text-md lg:text-sm text-slate-900 font-light">
+           <div class="top-0 right-0 p-7 lg:p-10 lg:w-full text-md lg:text-sm text-slate-900 font-light">
             <h3>{{ text_about_long_1 }}</h3><br>
             <h3>{{ text_about_long_2 }}</h3><br>
             <h3>{{ text_about_long_3 }}</h3>

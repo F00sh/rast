@@ -2,7 +2,7 @@
   <div id="home" class="text-white
               relative
               top-0
-              mb-0 lg:mb-0
+              mb-20 lg:mb-10
               w-full h-screen
               flex flex-col
               items-center
@@ -77,7 +77,7 @@
           <h2 class="text-slate-800
         
                        text-left
-                       p-6 lg:p-10
+                       p-7 lg:p-10
                        text-md lg:text-sm
                        w-80 lg:w-120
                        h-60 lg:h-44 

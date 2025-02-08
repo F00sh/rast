@@ -3,7 +3,7 @@
               flex flex-col
               items-center
               justify-start
-              px-14 pt-24">
+              px-14">
 
     <div class="w-full h-max
                 flex flex-col

@@ -33,7 +33,7 @@
         <div class="bg-green-400/80 backdrop-blur-xs
                       w-8/12 lg:w-4/12
                       text-center
-                      py-10 px-10 mb-2
+                      py-10 px-10 mb-5
                       rounded-tr-full rounded-bl-full
                       shadow-lg">
 
@@ -49,100 +49,61 @@
         <div class="relative
                     flex flex-col text-center
                     items-center justify-center
+                    bg-green-500/80 backdrop-blur-xs
+                    p-3 px-8 rounded-bl-full
                     mb-5">
-          <h2 class="text-sm lg:text-lg
-                     flex items-center justify-center 
-                     uppercase 
-                     font-semibold
-                     px-7 
-                     w-full  lg:w-[600px] h-10">
-
-          {{ text_about_short_1 }}
           
-          </h2>
-          <div class="absolute top-0 -z-10
-                    bg-green-500/60
-                      backdrop-blur-xs
-                      w-full lg:w-[600px] h-10
-                      text-center
+                    <h2 class="text-md font-medium text-white">
                       
-                      rounded-bl-full
-                      shadow-lg">
-          </div>
+                      {{ text_about_short_1 }}
+                    
+                    </h2>
+
         </div>
         
         <div class="relative
                     flex flex-col text-center
                     items-center justify-center
+                    bg-green-500/80 backdrop-blur-xs
+                    p-3 px-8 rounded-bl-full
                     mb-5">
-          <h2 class="text-sm lg:text-lg
-                     flex items-center justify-center 
-                     uppercase 
-                     font-semibold
-                     px-7 
-                     w-full  lg:w-[600px] h-10">
-
-          {{ text_about_short_2 }}
           
-          </h2>
-          <div class="absolute top-0 -z-10
-                    bg-green-500/60
-                      backdrop-blur-xs
-                      w-full lg:w-[600px] h-10
-                      text-center
+                    <h2 class="text-md font-medium text-white">
                       
-                      rounded-bl-full
-                      shadow-lg">
-          </div>
+                      {{ text_about_short_2 }}
+                    
+                    </h2>
+
         </div>
-        
-        <div class="relative h-14
+
+        <div class="relative
                     flex flex-col text-center
                     items-center justify-center
+                    bg-green-500/80 backdrop-blur-xs
+                    p-3 px-8 rounded-bl-full
                     mb-5">
-          <h2 class="text-sm lg:text-lg text-center
-                     flex items-center justify-center 
-                     uppercase 
-                     font-semibold
-                     px-7 
-                     w-full  lg:w-[600px] h-14">
-
-          {{ text_about_short_3 }}
           
-          </h2>
-          <div class="absolute top-0 -z-10
-                    bg-green-500/60
-                      backdrop-blur-xs
-                      w-full lg:w-[600px] h-18
-                      text-center
+                    <h2 class="text-md font-medium text-white">
                       
-                      rounded-bl-full
-                      shadow-lg">
-          </div>
+                      {{ text_about_short_3 }}
+                    
+                    </h2>
+
         </div>
-        <div class="relative text-center
-                    flex flex-col
-                    items-center justify-center
-                    mb-5">
-          <h2 class="text-sm lg:text-lg text-center
-                     flex items-center justify-center 
-                     uppercase 
-                     font-semibold
-                     px-7 
-                     w-full  lg:w-[600px] h-10">
 
-          {{ text_about_short_4 }}
+        <div class="relative
+                    flex flex-col text-center
+                    items-center justify-center
+                    bg-green-500/80 backdrop-blur-xs
+                    p-3 px-8 rounded-bl-full
+                    mb-5">
           
-          </h2>
-          <div class="absolute top-0 -z-10
-                    bg-green-500/60
-                      backdrop-blur-xs
-                      w-full lg:w-[600px] h-10
-                      text-center
+                    <h2 class="text-md font-medium text-white">
                       
-                      rounded-bl-full
-                      shadow-lg">
-          </div>
+                      {{ text_about_short_4 }}
+                    
+                    </h2>
+
         </div>
         
         <div class="relative flex flex-col w-full h-160 lg:w-full justify-end">
@@ -157,7 +118,7 @@
                       w-full lg:w-120
                       h-110 lg:h-120
                       bg-slate-100/70 
-                      backdrop-blur-xs shadow-md"></div>
+                      backdrop-blur-md shadow-md"></div>
 
           <!-- Tekst s višim z-index-om da ne bude zahvaćen blur efektom -->
           

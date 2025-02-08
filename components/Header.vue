@@ -106,7 +106,7 @@
                       w-80 lg:w-120
                       h-80 lg:h-100
                       bg-slate-100/70 
-                      backdrop-blur-xs">
+                      backdrop-blur-md">
           </div>
         </div>
       </div>

@@ -2,6 +2,6 @@
     <div class="flex flex-col min-h-screen">
         <!--<Navbar />-->
         <slot />
-        <Footer />
+        <!--<Footer />-->
     </div>
 </template>

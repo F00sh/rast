@@ -2,7 +2,7 @@
   <div id="home" class="text-white
               relative
               top-0
-              mb-0 lg:mb-60
+              mb-0 lg:mb-0
               w-full h-screen
               flex flex-col
               items-center
@@ -32,8 +32,8 @@
                   items-start
                   justify-start">
 
-        <div class=" bg-green-400
-                    
+        <div class=" bg-green-400/80
+                    backdrop-blur-xs
                     w-80 lg:w-120
                     text-center
                     py-10 mb-5
@@ -81,7 +81,7 @@
         
                        text-left
                        p-6 lg:p-10
-                       text-xs lg:text-sm
+                       text-sm lg:text-sm
                        w-80 lg:w-120
                        h-40 lg:h-44 
                         
@@ -89,15 +89,16 @@
             {{text_header_long}}
           </h2>
           <button class="bg-emerald-500
-                           w-44 lg:w-60 py-2 lg:py-3
+                           w-48 lg:w-60 py-3 lg:py-3
                            left-0
                            mr-auto
                            ml-5 lg:ml-10
+                           text-lg shadow-md
                            ">
                            
                            kontaktirajte nas
           </button>
-          <div class="absolute bg-emerald-300 w-60 lg:w-90 h-40 lg:h-60 mt-52 lg:mt-60 left-0 ml-5 lg:ml-10 shadow-md
+          <div class="absolute bg-emerald-300 w-60 lg:w-90 h-40 lg:h-60 mt-58 lg:mt-60 left-0 ml-5 lg:ml-10 shadow-md
                       bg-center bg-cover bg-no-repeat bg-[url(/img/mail_img.jpg)]">
             
           </div>

@@ -55,36 +55,33 @@
                     h-20 lg:h-24
                     mb-5
                     text-center
+                    bg-green-400/70 backdrop-blur-xs
                     rounded-bl-full
                     shadow-lg">
 
           <h2 class="text-slate-100 text-xl lg:text-2xl uppercase font-semibold">
             Vaš partner za uređenje vrtova i okućnica
           </h2>
-          <div class="absolute top-0 -z-10
-                      w-80 lg:w-120
-                      h-20 lg:h-24
-                      bg-green-500/60
-                      rounded-bl-full 
-                      backdrop-blur-xs">
-          </div>
+        
         </div>
         <div class="relative -z-10
                     flex flex-col
-                    items-center justify-start
+                    items-start justify-start
                     w-80 lg:w-120
-                    h-20 lg:h-24
+                    h-full
                     text-center
+                    bg-slate-200/80 
+                    backdrop-blur-md
                     shadow-lg">
 
           <h2 class="text-slate-800
         
                        text-left
                        p-6 lg:p-10
-                       text-sm lg:text-sm
+                       text-md lg:text-sm
                        w-80 lg:w-120
-                       h-40 lg:h-44 
-                        
+                       h-60 lg:h-44 
+                       mb-10
                        font-light">
             {{text_header_long}}
           </h2>
@@ -92,22 +89,19 @@
                            w-48 lg:w-60 py-3 lg:py-3
                            left-0
                            mr-auto
+                           mb-5
                            ml-5 lg:ml-10
                            text-lg shadow-md
+                           rounding-bl-full
                            ">
                            
                            kontaktirajte nas
           </button>
-          <div class="absolute bg-emerald-300 w-60 lg:w-90 h-40 lg:h-60 mt-58 lg:mt-60 left-0 ml-5 lg:ml-10 shadow-md
+          <div class=" bg-emerald-300 w-full h-40 lg:h-60 left-0 pl-5 mt-5 lg:mt-10 shadow-md
                       bg-center bg-cover bg-no-repeat bg-[url(/img/mail_img.jpg)]">
             
           </div>
-          <div class="absolute top-0 -z-10
-                      w-80 lg:w-120
-                      h-80 lg:h-100
-                      bg-slate-100/70 
-                      backdrop-blur-md">
-          </div>
+         
         </div>
       </div>
 

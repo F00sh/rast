@@ -53,7 +53,7 @@
                     p-3 px-8 rounded-bl-full
                     mb-5">
           
-                    <h2 class="text-md font-medium text-white">
+                    <h2 class="text-xl font-medium text-white">
                       
                       {{ text_about_short_1 }}
                     
@@ -68,7 +68,7 @@
                     p-3 px-8 rounded-bl-full
                     mb-5">
           
-                    <h2 class="text-md font-medium text-white">
+                    <h2 class="text-xl font-medium text-white">
                       
                       {{ text_about_short_2 }}
                     
@@ -83,7 +83,7 @@
                     p-3 px-8 rounded-bl-full
                     mb-5">
           
-                    <h2 class="text-md font-medium text-white">
+                    <h2 class="text-xl font-medium text-white">
                       
                       {{ text_about_short_3 }}
                     
@@ -98,7 +98,7 @@
                     p-3 px-8 rounded-bl-full
                     mb-5">
           
-                    <h2 class="text-md font-medium text-white">
+                    <h2 class="text-xl font-medium text-white">
                       
                       {{ text_about_short_4 }}
                     
@@ -106,9 +106,9 @@
 
         </div>
         
-        <div class="relative flex flex-col pb-5 w-3/4 h-full lg:w-1/3 justify-end bg-slate-100/70 backdrop-blur-md">
+        <div class="relative flex flex-col pb-5 w-full h-full lg:w-1/3 justify-end bg-slate-100/80 backdrop-blur-md">
           <!-- Glass effect sloj -->
-           <div class="top-0 right-0 p-7 lg:p-10 lg:w-full text-md lg:text-sm text-slate-900 font-light">
+           <div class="top-0 right-0 p-12 lg:p-10 lg:w-full text-lg lg:text-sm text-slate-900 font-light">
             <h3>{{ text_about_long_1 }}</h3><br>
             <h3>{{ text_about_long_2 }}</h3><br>
             <h3>{{ text_about_long_3 }}</h3>

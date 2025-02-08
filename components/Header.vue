@@ -25,7 +25,7 @@
                 flex flex-col
                 items-center
                 justify-start
-                pt-20 lg:pt-24">
+                pt-10 lg:pt-24">
 
       <div class="w-full h-2/3
                   flex flex-col
@@ -49,7 +49,7 @@
           </h1>
         </div>
         <div class="relative
-                    flex
+                    flex p-5
                     items-center justify-center
                     w-80 lg:w-120
                     h-20 lg:h-24
@@ -78,9 +78,9 @@
         
                        text-left
                        p-7 lg:p-10
-                       text-md lg:text-sm
+                       text-lg lg:text-sm
                        w-80 lg:w-120
-                       h-60 lg:h-44 
+                       h-70 lg:h-44 
                        mb-10
                        font-light">
             {{text_header_long}}

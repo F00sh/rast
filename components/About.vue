@@ -30,7 +30,7 @@
                     items-end
                     justify-start">
 
-        <div class="bg-green-400/80 backdrop-blur-xs
+        <div class="bg-yellow-400/70 backdrop-blur-xs
                       w-8/12 lg:w-4/12
                       text-center
                       py-10 px-10 mb-5

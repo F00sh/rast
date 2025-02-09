@@ -2,7 +2,7 @@
   <div id="home" class="text-white
               relative
               top-0
-              mb-20 lg:mb-10
+              mb-20 lg:mb-40
               w-full h-screen
               flex flex-col
               items-center
@@ -32,35 +32,37 @@
                   items-start
                   justify-start">
 
-        <div class=" bg-green-400/80
+        <div class=" bg-rast-mid/70
+        flex items-center justify-center
                     backdrop-blur-xs
                     w-80 lg:w-120
                     text-center
                     py-10 mb-5
-                    rounded-tr-full rounded-bl-full
+                    rounded-br-full rounded-tl-full
                     shadow-lg">
 
           <h1 class="
                      opacity-100
-                     text-6xl lg:text-8xl 
-                     uppercase 
-                     font-black">
+                     text-8xl lg:text-9xl 
+                     font-bodoni
+                     text-white
+                     font-bold">
             rast
           </h1>
         </div>
-        <div class="relative
+        <div class="
                     flex p-5
                     items-center justify-center
                     w-80 lg:w-120
-                    h-20 lg:h-24
+                    
                     mb-5
                     text-center
-                    bg-green-400/70 backdrop-blur-xs
-                    rounded-bl-full
+                    bg-rast-light/70 backdrop-blur-xs
+                    rounded-br-full
                     shadow-lg">
 
-          <h2 class="text-slate-100 text-xl lg:text-2xl uppercase font-semibold">
-            Vaš partner za uređenje vrtova i okućnica
+          <h2 class="text-rast-dark text-xl lg:text-2xl font-montserrat font-semibold">
+            vaš partner za uređenje vrtova i okućnica
           </h2>
         
         </div>
@@ -69,30 +71,32 @@
                     items-start justify-start
                     w-80 lg:w-120
                     h-full
-                    text-center
-                    bg-slate-200/80 
+                    text-center bg-rast-cream/70
+                    
                     backdrop-blur-md
                     shadow-lg">
 
           <h2 class="text-slate-800
-        
+                       font-montserrat
                        text-left
                        p-7 lg:p-10
-                       text-lg lg:text-sm
+                       text-lg lg:text-md
                        w-80 lg:w-120
-                       h-70 lg:h-44 
+                       
                        mb-10
                        font-light">
             {{text_header_long}}
           </h2>
-          <button class="bg-emerald-500
+          <button class="bg-rast-dark
                            w-48 lg:w-60 py-3 lg:py-3
                            left-0
                            mr-auto
                            mb-5
                            ml-5 lg:ml-10
                            text-lg shadow-md
-                           rounding-bl-full
+                           rounding-br-full
+                           font-montserrat
+                           font-light
                            ">
                            
                            kontaktirajte nas

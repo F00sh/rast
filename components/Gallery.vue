@@ -5,44 +5,59 @@
               justify-start
               px-14">
 
-    <div class="w-full h-max
-                flex flex-col
-                items-center
-                pb-14">
+              <div class="bg-rast-mid/70 backdrop-blur-xs
+                    w-8/12 lg:w-4/12
+                      text-center
+                      py-10 px-10 mb-5
+                      rounded-tl-full rounded-br-full
+                      shadow-lg">
 
-        <h1 class="bg-green-400
-                   lg:w-4/12
-                   text-center
-                   text-white
-                   text-5xl
-                   font-black
-                   uppercase
-                   py-10">
-                   
-                   slike
-
-        </h1>
-    </div>
+          <h1 class="text-4xl lg:text-5xl
+                     font-bodoni
+                     text-white
+                     font-black">
+            slike
+          </h1>
+        </div>
     <div class="bg-white
                 flex flex-col
-                w-full  lg:w-4/12 h-1/2">
+                w-full  lg:w-4/12 h-1/2
+                mb-3">
         slike
     </div>
-    <div class="bg-teal-300
+    <div class="bg-rast-dark
+                rounded-br-full rounded-tl-full
                 items-center
                 justify-center
                 w-full lg:w-4/12 h-max
-                py-5">
+                py-5 mb-5">
         <h3 class="text-center
-                 text-white
+                 text-rast-cream
                  text-xl
-                 uppercase
+                 font-montserrat
                  font-medium">
                  
                  opis slike
 
         </h3>
     </div>
+ <div>
+  <button class="bg-rast-cream
+                           w-48 lg:w-60 py-3 lg:py-3
+                           left-0 lg:left-auto
+                           items-center justify-center
+                           mr-auto
+                           mb-20
+                           border-rast-dark border-2
+                           text-lg shadow-md
+                           rounding-br-full
+                           font-montserrat
+                           font-normal text-rast-dark
+                           ">
+                           
+                           kontaktirajte nas
+          </button>
+ </div>
   </div>
 
 </template>

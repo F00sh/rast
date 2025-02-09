@@ -20,9 +20,9 @@
     </div>
 
     <div class="w-full h-full
-                  px-5 lg:pr-60
+                  lg:pr-60
                   flex flex-col
-                  items-start
+                  items-center
                   justify-center">
 
       <div class="w-full h-2/3
@@ -52,7 +52,7 @@
                     flex flex-col text-center
                     items-center justify-center
                     bg-rast-light/70 backdrop-blur-xs
-                    p-3 px-8 rounded-bl-full
+                    p-3  rounded-bl-full
                     mb-3">
           
                     <h2 class="text-xl font-medium text-rast-dark">
@@ -67,7 +67,7 @@
                     flex flex-col text-center
                     items-center justify-center
                     bg-rast-light/70 backdrop-blur-xs
-                    p-3 px-8 rounded-bl-full
+                    p-3  rounded-bl-full
                     mb-3">
           
                     <h2 class="text-xl font-medium text-rast-dark">
@@ -82,7 +82,7 @@
                     flex flex-col text-center
                     items-center justify-center
                     bg-rast-light/70 backdrop-blur-xs
-                    p-3 px-8 rounded-bl-full
+                    p-3  rounded-bl-full
                     mb-3">
           
                     <h2 class="text-xl font-medium text-rast-dark">
@@ -97,7 +97,7 @@
                     flex flex-col text-center
                     items-center justify-center
                     bg-rast-light/70 backdrop-blur-xs
-                    p-3 px-8 rounded-bl-full
+                    p-3  rounded-bl-full
                     mb-3">
           
                     <h2 class="text-xl font-medium text-rast-dark">
@@ -109,12 +109,15 @@
         </div>
 </div>
         
-        <div class="relative flex flex-col pb-5 w-full h-full lg:w-1/3 justify-end bg-slate-100/80 backdrop-blur-md">
+        <div class="relative flex flex-col w-screen h-full lg:w-1/3 justify-center items-center bg-rast-cream/80 backdrop-blur-md">
           <!-- Glass effect sloj -->
-           <div class="top-0 right-0 p-12 lg:p-10 lg:w-full text-lg lg:text-sm text-slate-900 font-montserrat font-light">
-            <h3>{{ text_about_long_1 }}</h3><br>
-            <h3>{{ text_about_long_2 }}</h3><br>
-            <h3>{{ text_about_long_3 }}</h3>
+           <div class="top-0 pt-12 lg:w-full text-lg lg:text-sm text-slate-900 font-montserrat font-light">
+            <h3 class="px-12">{{ text_about_long_1 }}</h3><br>
+            <div class="bg-green-300 w-full h-70 bg-center bg-cover bg-no-repeat bg-[url(/img/blog/berba_1.jpg)]"></div><br>
+            <h3 class="px-12">{{ text_about_long_2 }}</h3><br>
+            <div class="bg-green-300 w-full h-70 bg-center bg-cover bg-no-repeat bg-[url(/img/blog/berba_2.jpg)]"></div><br>
+            <h3 class="px-12">{{ text_about_long_3 }}</h3><br>
+            <div class="bg-green-300 w-full h-70 bg-center bg-cover bg-no-repeat bg-[url(/img/blog/berba_3.jpg)]"></div>
            </div>
           
 

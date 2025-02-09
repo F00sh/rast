@@ -152,7 +152,7 @@
 
         </div>
 
-        <div class="relative flex flex-col w-full h-full lg:w-1/3 justify-start bg-slate-100/80 backdrop-blur-md">
+        <div class="relative flex flex-col w-full h-full lg:w-1/3 justify-start bg-rast-cream/80 backdrop-blur-md">
           <!-- Glass effect sloj -->
            <div class="top-0 left-0 p-12 lg:p-10 lg:w-full text-lg lg:text-sm text-slate-900 font-light font-montserrat">
             <h3>{{ usluge_mali_1 }}</h3><br>

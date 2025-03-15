@@ -1,80 +1,48 @@
 <template>
-  <div
-    id="home"
-    class="text-white relative top-0 mb-20 lg:mb-40 w-full h-screen flex items-center lg:items-start justify-start"
-  >
-    <div
-      class="absolute -z-10 bg-green-300 w-full h-2/3 lg:h-full shadow-2xl bg-center bg-cover bg-no-repeat opacity-90 bg-[url(/img/header_1.jpg)]"
-    ></div>
-
-    <div class="w-full lg:w-2/3 h-full lg:px-0 flex flex-col items-start justify-start">
-      <div
-        class="w-full h-2/3 bg-rast-light/50 backdrop-blur-lg rounded-br-full flex flex-col p-20 items-start justify-start"
-      >
-        <div
-          class="bg-rast-mid/70 flex items-center justify-center backdrop-blur-xs w-80 lg:w-120 text-center py-10 mb-5 rounded-br-full rounded-tl-full shadow-lg"
-        >
-          <h1
-            class="opacity-100 text-8xl lg:text-9xl font-bodoni text-white font-bold"
-          >
-            rast
-          </h1>
+  <div id="home" class="text-white relative w-full h-screen items-center flex flex-col">
+    <div class="w-1/2 h-full grid-rows-2 grid gap-5 mt-5 mb-15">
+      <div class="bg-[#2BCC74] flex items-center justify-between pl-28">
+        <div>
+          <h1 class="text-9xl font-black tracking-[5rem] pb-5">RAST</h1>
+          <div class="bg-white h-1 w-140"></div>
+          <h2 class="text-5xl font-medium tracking-[1.5rem] leading-[4rem] pt-5">Vaš partner <br> u uređenju <br> okućnice</h2>
         </div>
-        <div
-          class="flex p-5 items-center justify-center w-80 lg:w-120 mb-5 text-center bg-rast-light/70 backdrop-blur-xs rounded-br-full shadow-lg"
-        >
-          <h2
-            class="text-rast-dark text-xl lg:text-2xl font-montserrat font-semibold"
-          >
-            vaš partner za uređenje vrtova i okućnica
-          </h2>
+        <div>
+          <img src="/public/img/logo_img.svg" alt="logo" class="h-110 pr-28"/>
         </div>
-        <div
-          class="relative z-10 flex flex-col items-start justify-start w-80 lg:w-120 h-full text-center bg-rast-cream/70 backdrop-blur-md shadow-lg"
-        >
-          <h2
-            class="text-slate-800 font-montserrat text-left p-7 lg:p-10 text-lg lg:text-md w-80 lg:w-120 mb-10 font-light"
-          >
-            {{ text_header_long }}
-          </h2>
-          <!-- Container for contact and nav buttons -->
-          <div class="w-full flex flex-col lg:flex-row items-center justify-between">
-            <button
-              class="bg-rast-dark w-48 lg:w-60 py-3 mr-auto mb-5 ml-5 lg:ml-10 text-lg shadow-md rounded-br-full font-montserrat font-light"
-            >
-              kontaktirajte nas
-            </button>
-        
-          </div>
-          
-          <div
-            class="bg-emerald-300 w-full h-40 lg:h-60 pl-5 mt-5 lg:mt-10 shadow-md bg-center bg-cover bg-no-repeat bg-[url(/img/mail_img.jpg)]"
-          ></div>
-        </div>
-        
       </div>
-      
-    </div>
-    <div class="desktop-only absolute bg-rast-mid/70 backdrop-blur-lg right-60 bottom-60 flex flex-col items-center justify-center text-center p-20">
-              <button
-                @click="navigateTo('/about')"
-                class="bg-white text-black w-80 h-14 rounded-l-full rounded-br-full mb-10"
+      <div class="desktop-only bg-center bg-cover bg-no-repeat bg-[url(/img/about_1.jpg)] grid-2 gap-5 items-center justify-between text-center">
+        <div class="flex flex-col h-full bg-[#2BCC74] justify-center items-center">
+          <img src="/public/img/qr-code.jpg" alt="qrcode" class="h-65 w-65 m-14"/>
+          <button
+                @click="navigateTo('/About')"
+                class="bg-[#4AE86E] text-white text-2xl tracking-[0.5rem] font-bold w-80 h-20 mb-10 rounded-r-full"
               >
-                About
+                KONTAKT
+              </button>
+        </div>
+        <div class="flex flex-col items-center justify-center">
+          <button
+                @click="navigateTo('/About')"
+                class="bg-[#4AE86E] text-white text-2xl tracking-[0.5rem] font-bold w-80 h-20 rounded-l-full  mb-10"
+              >
+                O NAMA
               </button>
               <button
                 @click="navigateTo('/services')"
-                class="bg-white text-black w-80 h-14 rounded-l-full rounded-br-full mb-10"
+                class="bg-[#4AE86E] text-WHITE  text-2xl tracking-[0.5rem] font-bold w-80 h-20 rounded-l-full  mb-10"
               >
-                Services
+                USLUGE
               </button>
               <button
                 @click="navigateTo('/gallery')"
-                class="bg-white text-black w-80 h-14 rounded-l-full rounded-br-full"
+                class="bg-[#4AE86E] text-white text-2xl tracking-[0.5rem] font-bold w-80 h-20 rounded-l-full "
               >
-                Gallery
+                GALERIJA
               </button>
-            </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 

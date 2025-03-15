@@ -1,133 +1,28 @@
 <template>
-  <div id="about" class="relative
-                
-                mb-20 lg:mb-40
-                text-white
-                top-0
-                w-full h-full
-                flex flex-col
-                items-start
-                justify-start">
+  <div class="w-full h-full flex flex-col items-center justify-start my-15">
+             <div class=" w-1/2 h-max grid grid-cols-2 gap-5 items-center justify-center mb-5">
+               <h1 class="bg-[#1AE873] flex h-full text-5xl text-white font-black tracking-[3rem] items-center justify-center text-center rounded-r-full">O NAMA</h1>
+               <p class="h-full text-xl tracking-[0.2rem] leading-[2.2rem] font-light uppercase text-justify">{{ text_about_long_1  }}</p>
+             </div>
+             <div class="bg-gray-100 w-1/2 h-150 mb-5 flex items-center justify-center bg-center bg-cover bg-no-repeat bg-[url(/img/about_1.jpg)]">
+             </div>
+             <div class=" w-1/2 h-max grid grid-cols-2 gap-5 items-center justify-center mb-5">
+               <div class="order-2 grid gap-5">
+                <div class=" bg-[#1AE873] uppercase text-3xl text-white font-medium tracking-[0.6rem] p-5 flex items-center justify-center text-right rounded-l-full">{{ text_about_short_1 }}</div>
+                <div class=" bg-[#1AE873] uppercase text-3xl text-white font-medium tracking-[0.6rem] p-5 flex items-center justify-center text-right rounded-l-full">{{ text_about_short_2 }}</div>
 
-    <div class="absolute
-                  -z-10
-                  mt-10
-                  bg-green-300
-                  w-full lg:w-3/4 h-2/3
-                  rounded-br-full
-                  shadow-2xl
-                  bg-center bg-cover bg-no-repeat bg-[url(/img/about_1.jpg)]">
-    </div>
+              </div>
+               <p class="order-1 flex items-center h-full text-xl tracking-[0.2rem] leading-[2.2rem] font-light uppercase text-justify">{{ text_about_long_2 }}</p>
+             </div>
+ 
+            <div class=" w-1/2 h-max grid grid-cols-2 gap-5 items-center justify-center mb-5">
+               <div class="order-2 grid gap-5">
+                <div class=" bg-[#1AE873] uppercase text-3xl text-white font-medium tracking-[0.6rem] p-5 flex items-center justify-center text-right rounded-l-full">{{ text_about_short_3 }}</div>
+                <div class=" bg-[#1AE873] uppercase text-3xl text-white font-medium tracking-[0.6rem] p-5 flex items-center justify-center text-right rounded-l-full">{{ text_about_short_4 }}</div>
 
-    <div class="w-full h-full
-                  lg:pr-60
-                  flex flex-col
-                  items-center
-                  justify-center">
-
-      <div class="w-full h-2/3
-                    flex flex-col
-                    items-end
-                    justify-start">
-
-        <div class="bg-rast-mid/70 backdrop-blur-xs
-                      w-8/12 lg:w-4/12
-                      text-center
-                      py-10 px-10 mb-5
-                      rounded-tr-full rounded-bl-full
-                      shadow-lg">
-
-          <h1 class="text-4xl lg:text-5xl 
-                       text-white
-                       font-bodoni 
-                       font-black">
-            više o nama
-          </h1>
-        </div>
-
-        <!--podnaslovi-->
-
-<div class="font-montserrat">
-  <div class="relative
-                    flex flex-col text-center
-                    items-center justify-center
-                    bg-rast-light/70 backdrop-blur-xs
-                    p-3  rounded-bl-full
-                    mb-3">
-          
-                    <h2 class="text-xl font-medium text-rast-dark">
-                      
-                      {{ text_about_short_1 }}
-                    
-                    </h2>
-
-        </div>
-        
-        <div class="relative
-                    flex flex-col text-center
-                    items-center justify-center
-                    bg-rast-light/70 backdrop-blur-xs
-                    p-3  rounded-bl-full
-                    mb-3">
-          
-                    <h2 class="text-xl font-medium text-rast-dark">
-                      
-                      {{ text_about_short_2 }}
-                    
-                    </h2>
-
-        </div>
-
-        <div class="relative
-                    flex flex-col text-center
-                    items-center justify-center
-                    bg-rast-light/70 backdrop-blur-xs
-                    p-3  rounded-bl-full
-                    mb-3">
-          
-                    <h2 class="text-xl font-medium text-rast-dark">
-                      
-                      {{ text_about_short_3 }}
-                    
-                    </h2>
-
-        </div>
-
-        <div class="relative
-                    flex flex-col text-center
-                    items-center justify-center
-                    bg-rast-light/70 backdrop-blur-xs
-                    p-3  rounded-bl-full
-                    mb-3">
-          
-                    <h2 class="text-xl font-medium text-rast-dark">
-                      
-                      {{ text_about_short_4 }}
-                    
-                    </h2>
-
-        </div>
-</div>
-        
-        <div class="relative flex flex-col w-screen h-full lg:w-1/3 justify-center items-center bg-rast-cream/80 backdrop-blur-md">
-          <!-- Glass effect sloj -->
-           <div class="top-0 pt-12 lg:w-full text-lg lg:text-sm text-slate-900 font-montserrat font-light">
-            <h3 class="px-12">{{ text_about_long_1 }}</h3><br>
-            <div class="bg-green-300 w-full h-70 bg-center bg-cover bg-no-repeat bg-[url(/img/blog/berba_1.jpg)]"></div><br>
-            <h3 class="px-12">{{ text_about_long_2 }}</h3><br>
-            <div class="bg-green-300 w-full h-70 bg-center bg-cover bg-no-repeat bg-[url(/img/blog/berba_2.jpg)]"></div><br>
-            <h3 class="px-12">{{ text_about_long_3 }}</h3><br>
-            <div class="bg-green-300 w-full h-70 bg-center bg-cover bg-no-repeat bg-[url(/img/blog/berba_3.jpg)]"></div>
-           </div>
-          
-
-          <!-- Tekst s višim z-index-om da ne bude zahvaćen blur efektom -->
-          
-        </div>
-
-      </div>
-
-    </div>
+              </div>
+               <p class="order-1 flex items-center h-full text-xl tracking-[0.2rem] leading-[2.2rem] font-light uppercase text-justify">{{ text_about_long_3 }}</p>
+             </div>
   </div>
 </template>
 

@@ -12,11 +12,9 @@
       <h1 class="bg-green-500 w-full lg:w-1/2 text-white text-center text-xl lg:text-2xl py-5">{{ text_about_short_3 }}</h1>
       <h1 class="bg-green-500 w-full lg:w-1/2 text-white text-center text-xl lg:text-2xl py-5">{{ text_about_short_4 }}</h1> 
       <p class="h-full lg:w-1/2 text-md lg:text-lg tracking-[0.2rem] leading-[1.8rem] lg:leading-[2.2rem] font-light uppercase">{{ text_about_long_3  }}</p>
-
+      <img class="flex items-center justify-center lg:w-1/2" src="/public/img/plants_2.svg" alt="plants2">
   </div>
-      <div class="bg-green-600 h-1  mt-10 mx-10"></div>
-      <div class="bg-green-600 h-1  mt-5 mx-10"></div>
-      <div class="bg-green-600 h-1  mt-5 mx-10"></div>
+
 </template>
 
 <script lang="ts" setup>

@@ -1,29 +1,25 @@
 <template>
-  <div class="w-full h-full flex flex-col items-center justify-start my-15">
-             <div class=" w-1/2 h-max grid grid-cols-2 gap-5 items-center justify-center mb-5">
-               <h1 class="bg-[#1AE873] flex h-full text-5xl text-white font-black tracking-[3rem] items-center justify-center text-center rounded-r-full">USLUGE</h1>
-               <p class="h-full text-xl tracking-[0.2rem] leading-[2.2rem] font-light uppercase text-justify">{{ usluge_mali_1  }}</p>
-             </div>
-             <div class="bg-gray-100 w-1/2 h-150 mb-5 flex items-center justify-center bg-center bg-cover bg-no-repeat bg-[url(/img/about_1.jpg)]">
-             </div>
-             <div class=" w-1/2 h-max grid grid-cols-2 gap-5 items-center justify-center mb-5">
-               <div class="order-2 grid gap-5">
-                <div class=" bg-[#1AE873] uppercase text-3xl text-white font-medium tracking-[0.6rem] p-5 flex items-center justify-center text-right rounded-l-full">{{ text_about_short_1 }}</div>
-                <div class=" bg-[#1AE873] uppercase text-3xl text-white font-medium tracking-[0.6rem] p-5 flex items-center justify-center text-right rounded-l-full">{{ text_about_short_2 }}</div>
+  <div class="w-full h-full flex flex-col items-center justify-start mt-28 lg:px-0 px-10 gap-5">
+      <div class="flex w-full lg:w-1/2 h-max items-center justify-between">
+          <h1 class="flex h-full w-full text-3xl lg:text-6xl font-bold tracking-[1.5rem] items-center">Usluge</h1>
+          <img class="w-40 lg:w-60" src="/public/img/digger.svg" alt="">
+      </div>
+      <p class="h-full lg:w-1/2 text-md lg:text-lg tracking-[0.2rem] leading-[1.8rem] lg:leading-[2.2rem] font-light uppercase">{{ usluge_mali_1  }}</p>
+      <div class="bg-gray-100 lg:w-1/2 w-full h-80 lg:h-150 flex items-center justify-center bg-center bg-cover bg-no-repeat bg-[url(/img/about_1.jpg)]"></div>
+      <h1 class="bg-green-500 w-full lg:w-1/2 text-white text-center text-xl lg:text-2xl py-5 rounded-l-full">{{ usluge_podnaslov_1 }}</h1>
+      <h1 class="bg-green-500 w-full lg:w-1/2 text-white text-center text-xl lg:text-2xl py-5 rounded-r-full">{{ usluge_podnaslov_2 }}</h1>
 
-              </div>
-               <p class="order-1 flex items-center h-full text-xl tracking-[0.2rem] leading-[2.2rem] font-light uppercase text-justify">{{usluge_mali_2 }}</p>
-             </div>
+      <h1 class="bg-green-500 w-full lg:w-1/2 text-white text-center text-xl lg:text-2xl py-5 rounded-l-full">{{ usluge_podnaslov_3 }}</h1>
+      <h1 class="bg-green-500 w-full lg:w-1/2 text-white text-center text-xl lg:text-2xl py-5 rounded-r-full">{{ usluge_podnaslov_4 }}</h1> 
+      <h1 class="bg-green-500 w-full lg:w-1/2 text-white text-center text-xl lg:text-2xl py-5 rounded-l-full">{{ usluge_podnaslov_5 }}</h1>
+      <h1 class="bg-green-500 w-full lg:w-1/2 text-white text-center text-xl lg:text-2xl py-5 rounded-r-full">{{ usluge_podnaslov_6 }}</h1>
+      <h1 class="bg-green-500 w-full lg:w-1/2 text-white text-center text-xl lg:text-2xl py-5 rounded-l-full">{{ usluge_podnaslov_7 }}</h1>   
+      <p class="h-full lg:w-1/2 text-md lg:text-lg tracking-[0.2rem] leading-[1.8rem] lg:leading-[2.2rem] font-light uppercase">{{ usluge_mali_2 }}</p>     
 
-            <div class=" w-1/2 h-max grid grid-cols-2 gap-5 items-center justify-center mb-5">
-               <div class="order-2 grid gap-5">
-                <div class=" bg-[#1AE873] uppercase text-3xl text-white font-medium tracking-[0.6rem] p-5 flex items-center justify-center text-right rounded-l-full">{{ text_about_short_3 }}</div>
-                <div class=" bg-[#1AE873] uppercase text-3xl text-white font-medium tracking-[0.6rem] p-5 flex items-center justify-center text-right rounded-l-full">{{ text_about_short_4 }}</div>
-
-              </div>
-               <p class="order-1 flex items-center h-full text-xl tracking-[0.2rem] leading-[2.2rem] font-light uppercase text-justify">{{ text_about_long_3 }}</p>
-             </div>
   </div>
+      <div class="bg-green-600 h-1  mt-10 mx-10"></div>
+      <div class="bg-green-600 h-1  mt-5 mx-10"></div>
+      <div class="bg-green-600 h-1  mt-5 mx-10"></div>
 </template>
 <script lang="ts" setup>
 

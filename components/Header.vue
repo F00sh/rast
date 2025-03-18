@@ -22,7 +22,9 @@
       <button class="bg-green-600 text-white p-5 w-50 rounded-full">kontakt</button>
     </div>   
     <img class="" src="/public/img/plants_1.svg" alt="">
-
+    <div class="bg-green-600 h-1 w-full mt-10"></div>
+    <div class="bg-green-600 h-1 w-full mt-5"></div>
+    <div class="bg-green-600 h-1 w-full mt-5"></div>
   </div>
 
 </DIV>

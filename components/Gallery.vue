@@ -1,12 +1,12 @@
 <template>
-  <div class="w-full h-screen flex flex-col items-center justify-start px-14">
-    <div name="title" class="w-full flex flex-col items-center pb-14">
-      <h1 class="bg-green-400 lg:w-4/12 text-center text-white text-5xl font-black uppercase py-10">
-        Slike
-      </h1>
-    </div>
+  <div class="w-full h-screen flex flex-col items-center px-14">
+    <div class="w-full h-full flex flex-col items-center justify-start mt-28 lg:px-0 px-10 gap-5">
+      <div class="flex w-full lg:w-1/2 h-max items-center justify-between">
+          <h1 class="flex h-full w-full text-3xl lg:text-6xl font-bold tracking-[1.5rem] items-center">Galerija</h1>
+          <img class="w-40 lg:w-60" src="/public/img/digger.svg" alt="">
+      </div>
 
-    <div name="image_slider" class="relative w-full lg:w-4/12 h-80 overflow-hidden bg-white rounded-lg shadow-lg">
+      <div name="image_slider" class="relative w-full lg:w-4/12 overflow-hidden bg-white rounded-lg shadow-lg">
       <div class="flex transition-transform duration-500 ease-in-out w-full flex-nowrap"
         :style="{ transform: `translateX(-${currentIndex * 100}%)` }">
         <div v-for="(image, index) in images" :key="index" class="w-full flex-shrink-0">
@@ -29,7 +29,10 @@
         {{ images[currentIndex].description }}
       </h3>
     </div>
+  </div>  
   </div>
+
+
 </template>
 
 <script setup lang="ts">

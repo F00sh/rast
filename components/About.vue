@@ -1,28 +1,14 @@
 <template>
-  <div class="w-full h-full flex flex-col items-center justify-start my-15">
-             <div class=" w-1/2 h-max grid grid-cols-2 gap-5 items-center justify-center mb-5">
-               <h1 class="bg-[#1AE873] flex h-full text-5xl text-white font-black tracking-[3rem] items-center justify-center text-center rounded-r-full">O NAMA</h1>
-               <p class="h-full text-xl tracking-[0.2rem] leading-[2.2rem] font-light uppercase text-justify">{{ text_about_long_1  }}</p>
-             </div>
-             <div class="bg-gray-100 w-1/2 h-150 mb-5 flex items-center justify-center bg-center bg-cover bg-no-repeat bg-[url(/img/about_1.jpg)]">
-             </div>
-             <div class=" w-1/2 h-max grid grid-cols-2 gap-5 items-center justify-center mb-5">
-               <div class="order-2 grid gap-5">
-                <div class=" bg-[#1AE873] uppercase text-3xl text-white font-medium tracking-[0.6rem] p-5 flex items-center justify-center text-right rounded-l-full">{{ text_about_short_1 }}</div>
-                <div class=" bg-[#1AE873] uppercase text-3xl text-white font-medium tracking-[0.6rem] p-5 flex items-center justify-center text-right rounded-l-full">{{ text_about_short_2 }}</div>
-
-              </div>
-               <p class="order-1 flex items-center h-full text-xl tracking-[0.2rem] leading-[2.2rem] font-light uppercase text-justify">{{ text_about_long_2 }}</p>
-             </div>
+  <div class="w-full h-full flex flex-col items-center justify-start mt-28 lg:px-0 px-10">
+      <div class="flex w-full lg:w-1/2 h-max gap-5 items-center justify-between mb-5">
+          <h1 class="flex h-full w-full text-3xl lg:text-6xl font-bold tracking-[1.5rem] items-center">O nama</h1>
+          <img class="w-40 lg:w-60" src="/public/img/digger.svg" alt="">
+      </div>
+      <p class="h-full lg:w-1/2 text-md lg:text-lg py-10 tracking-[0.2rem] leading-[1.8rem] lg:leading-[2.2rem] font-light uppercase">{{ text_about_long_1  }}</p>
+      <div class="bg-gray-100 lg:w-1/2 w-full h-80 lg:h-150 mb-5 flex items-center justify-center bg-center bg-cover bg-no-repeat bg-[url(/img/about_1.jpg)]"></div>
+      <p class="h-full lg:w-1/2 text-md lg:text-lg py-10 tracking-[0.2rem] leading-[1.8rem] lg:leading-[2.2rem] font-light uppercase">{{ text_about_long_2  }}</p>
  
-            <div class=" w-1/2 h-max grid grid-cols-2 gap-5 items-center justify-center mb-5">
-               <div class="order-2 grid gap-5">
-                <div class=" bg-[#1AE873] uppercase text-3xl text-white font-medium tracking-[0.6rem] p-5 flex items-center justify-center text-right rounded-l-full">{{ text_about_short_3 }}</div>
-                <div class=" bg-[#1AE873] uppercase text-3xl text-white font-medium tracking-[0.6rem] p-5 flex items-center justify-center text-right rounded-l-full">{{ text_about_short_4 }}</div>
 
-              </div>
-               <p class="order-1 flex items-center h-full text-xl tracking-[0.2rem] leading-[2.2rem] font-light uppercase text-justify">{{ text_about_long_3 }}</p>
-             </div>
   </div>
 </template>
 

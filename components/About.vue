@@ -1,17 +1,17 @@
 <template>
-  <div class="w-full h-full flex flex-col items-center justify-start mt-28 lg:px-0 gap-5">
-      <div class="flex flex-col-reverse lg:w-1/2 h-max items-center justify-center gap-5">
-          <h1 class="flex h-full w-full text-3xl lg:text-6xl font-bold tracking-[1.5rem] items-center">O nama</h1>
-          <img class="w-40 lg:w-60" src="/public/img/digger.svg" alt="digger">
+  <div class="w-full h-full flex flex-col items-center justify-start mt-14 lg:mt-28 lg:px-0 gap-5">
+      <div class="flex flex-col-reverse w-full lg:w-1/2 h-max justify-center gap-5">
+          <h1 class="flex h-full text-3xl lg:text-6xl font-bold tracking-[1.5rem] mx-10">O nama</h1>
+          <img class="w-40 lg:w-60 mx-auto" src="/public/img/digger.svg" alt="digger">
       </div>
-      <p class="h-full lg:w-1/2 text-md lg:text-lg tracking-[0.25rem] leading-[1.5rem] lg:leading-[2.2rem] font-light uppercase px-15">{{ text_about_long_1  }}</p>
+      <p class="h-full lg:w-1/2 text-md lg:text-lg tracking-[0.25rem] leading-[1.5rem] lg:leading-[2.2rem] font-light uppercase px-10">{{ text_about_long_1  }}</p>
       <div class="bg-gray-100 lg:w-1/2 w-full h-80 lg:h-150 flex items-center justify-center bg-center bg-cover bg-no-repeat bg-[url(/img/about_1.jpg)]"></div>
       <h1 class="bg-green-500 w-full lg:w-1/2 text-white text-center text-xl lg:text-2xl py-5">{{ text_about_short_1 }}</h1>
       <h1 class="bg-green-500 w-full lg:w-1/2 text-white text-center text-xl lg:text-2xl py-5">{{ text_about_short_2 }}</h1>
-      <p class="h-full lg:w-1/2 text-md lg:text-lg tracking-[0.2rem] leading-[1.8rem] lg:leading-[2.2rem] font-light uppercase">{{ text_about_long_2  }}</p>
+      <p class="h-full lg:w-1/2 text-md lg:text-lg tracking-[0.2rem] leading-[1.8rem] lg:leading-[2.2rem] font-light uppercase px-10">{{ text_about_long_2  }}</p>
       <h1 class="bg-green-500 w-full lg:w-1/2 text-white text-center text-xl lg:text-2xl py-5">{{ text_about_short_3 }}</h1>
       <h1 class="bg-green-500 w-full lg:w-1/2 text-white text-center text-xl lg:text-2xl py-5">{{ text_about_short_4 }}</h1> 
-      <p class="h-full lg:w-1/2 text-md lg:text-lg tracking-[0.2rem] leading-[1.8rem] lg:leading-[2.2rem] font-light uppercase">{{ text_about_long_3  }}</p>
+      <p class="h-full lg:w-1/2 text-md lg:text-lg tracking-[0.2rem] leading-[1.8rem] lg:leading-[2.2rem] font-light uppercase px-10">{{ text_about_long_3  }}</p>
       <img class="flex items-center justify-center lg:w-1/2" src="/public/img/plants_2.svg" alt="plants2">
       
   </div>

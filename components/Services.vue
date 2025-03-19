@@ -1,6 +1,6 @@
 <template>
-  <div class="w-full h-full flex flex-col items-center justify-start mt-28 lg:px-0 px-10 gap-5">
-      <div class="flex w-full lg:w-1/2 h-max items-center justify-between">
+  <div class="w-full h-full flex flex-col items-center justify-start mt-28 lg:px-0 gap-5">
+      <div class="flex flex-col-reverse lg:w-1/2 h-max items-center justify-center gap-5">
           <h1 class="flex h-full w-full text-3xl lg:text-6xl font-bold tracking-[1.5rem] items-center">Usluge</h1>
           <img class="w-40 lg:w-60" src="/public/img/digger.svg" alt="">
       </div>

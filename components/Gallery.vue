@@ -1,9 +1,9 @@
 <template>
-  <div class="w-full h-screen flex flex-col items-center px-14">
-    <div class="w-full h-full flex flex-col items-center justify-start mt-28 lg:px-0 px-10 gap-5">
-      <div class="flex w-full lg:w-1/2 h-max items-center justify-between">
+  <div class="w-full h-sfull flex flex-col items-center">
+    <div class="w-full h-full flex flex-col items-center justify-start mt-28 lg:px-0 gap-5">
+      <div class="flex flex-col-reverse lg:w-1/2 items-center justify-center text-center gap-5">
           <h1 class="flex h-full w-full text-3xl lg:text-6xl font-bold tracking-[1.5rem] items-center">Galerija</h1>
-          <img class="w-40 lg:w-60" src="/public/img/digger.svg" alt="">
+          <img class="w-40 lg:w-60" src="/public/img/camera.svg" alt="">
       </div>
 
       <div name="image_slider" class="relative w-full lg:w-4/12 overflow-hidden bg-white rounded-lg shadow-lg">

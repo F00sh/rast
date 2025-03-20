@@ -18,11 +18,7 @@
       <p class="h-full lg:w-1/2 text-md lg:text-lg tracking-[0.2rem] leading-[1.8rem] lg:leading-[2.2rem] font-light uppercase p-10 lg:p-20">{{ usluge_mali_2 }}</p>     
 
   </div>
-  <div class="lg:flex lg:flex-col items-center justify-center">
-    <div class="bg-green-600 h-1  mx-10 lg:mx-0 lg:w-1/2"></div>
-    <div class="bg-green-600 h-1  mt-5 mx-10 lg:mx-0 lg:w-1/2"></div>
-    <div class="bg-green-600 h-1  mt-5 mx-10 lg:mx-0 lg:w-1/2"></div>
-  </div>
+
 </template>
 <script lang="ts" setup>
 

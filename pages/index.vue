@@ -4,5 +4,6 @@
     <About />
     <Services />
     <Gallery />
+    <Footer />
   </div>
 </template>

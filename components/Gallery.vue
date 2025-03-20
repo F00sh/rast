@@ -6,11 +6,11 @@
           <h1 class="bg-[#1D713D] flex h-full w-full font-montserrat text-white text-4xl lg:text-6xl font-black tracking-[0.8rem] lg:tracking-[1.5rem] uppercase pl-10 lg:pl-20 py-5 lg:py-10">Galerija</h1>
       </div>
 
-      <div name="image_slider" class="relative w-full lg:w-4/12 overflow-hidden bg-white rounded-lg shadow-lg">
+      <div name="image_slider" class="relative w-full lg:w-1/2 overflow-hidden bg-white shadow-lg">
       <div class="flex transition-transform duration-500 ease-in-out w-full flex-nowrap"
         :style="{ transform: `translateX(-${currentIndex * 100}%)` }">
         <div v-for="(image, index) in images" :key="index" class="w-full flex-shrink-0">
-          <img :src="image.url" alt="Carousel Image" class="w-full h-80 object-cover" />
+          <img :src="image.url" alt="Carousel Image" class="w-full h-140 object-cover" />
         </div>
       </div>
 
@@ -24,7 +24,7 @@
       </button>
     </div>
 
-    <div name="description" class="bg-teal-300 flex items-center justify-center w-full lg:w-4/12 py-5">
+    <div name="description" class="bg-[#38BA45] flex items-center justify-center w-full lg:w-1/2 py-5">
       <h3 class="text-center text-white text-xl uppercase font-medium">
         {{ images[currentIndex].description }}
       </h3>

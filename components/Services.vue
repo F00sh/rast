@@ -6,14 +6,14 @@
       </div>
       <p class="bg-[#154E3C] text-white  h-full lg:w-1/2 text-md lg:text-lg tracking-[0.2rem] leading-[1.8rem] lg:leading-[2.2rem] font-light uppercase p-10 lg:p-20">{{ usluge_mali_1  }}</p>
       <div class="bg-gray-100 lg:w-1/2 w-full h-80 lg:h-150 flex items-center justify-center bg-center bg-cover bg-no-repeat bg-[url(/img/about_1.jpg)]"></div>
-      <div class="flex flex-col w-full">
-        <h1 class="bg-green-500 lg:w-1/2 text-white text-center text-xl lg:text-2xl py-5 mt-10 mx-10">{{ usluge_podnaslov_1 }}</h1>
-        <h1 class="bg-green-500 lg:w-1/2 text-white text-center text-xl lg:text-2xl py-5 mt-1 mx-10">{{ usluge_podnaslov_2 }}</h1>
-        <h1 class="bg-green-500 lg:w-1/2 text-white text-center text-xl lg:text-2xl py-5 mt-1 mx-10">{{ usluge_podnaslov_3 }}</h1>
-        <h1 class="bg-green-500 lg:w-1/2 text-white text-center text-xl lg:text-2xl py-5 mt-1 mx-10">{{ usluge_podnaslov_4 }}</h1> 
-        <h1 class="bg-green-500 lg:w-1/2 text-white text-center text-xl lg:text-2xl py-5 mt-1 mx-10">{{ usluge_podnaslov_5 }}</h1>
-        <h1 class="bg-green-500 lg:w-1/2 text-white text-center text-xl lg:text-2xl py-5 mt-1 mx-10">{{ usluge_podnaslov_6 }}</h1>
-        <h1 class="bg-green-500 lg:w-1/2 text-white text-center text-xl lg:text-2xl py-5 mt-1 mx-10">{{ usluge_podnaslov_7 }}</h1> 
+      <div class="flex flex-col w-full items-center px-10 lg:px-0">
+        <h1 class="bg-[#60EF54] w-full lg:w-1/2 text-white text-center text-xl lg:text-2xl py-5 mt-10 lg:mt-20 mx-10">{{ usluge_podnaslov_1 }}</h1>
+        <h1 class="bg-[#38BA45] w-full lg:w-1/2 text-white text-center text-xl lg:text-2xl py-5 mt-2 mx-10">{{ usluge_podnaslov_2 }}</h1>
+        <h1 class="bg-[#25992B] w-full lg:w-1/2 text-white text-center text-xl lg:text-2xl py-5 mt-2 mx-10">{{ usluge_podnaslov_3 }}</h1>
+        <h1 class="bg-[#38BA45] w-full lg:w-1/2 text-white text-center text-xl lg:text-2xl py-5 mt-2 mx-10">{{ usluge_podnaslov_4 }}</h1> 
+        <h1 class="bg-[#60EF54] w-full lg:w-1/2 text-white text-center text-xl lg:text-2xl py-5 mt-2 mx-10">{{ usluge_podnaslov_5 }}</h1>
+        <h1 class="bg-[#38BA45] w-full lg:w-1/2 text-white text-center text-xl lg:text-2xl py-5 mt-2 mx-10">{{ usluge_podnaslov_6 }}</h1>
+        <h1 class="bg-[#25992B] w-full lg:w-1/2 text-white text-center text-xl lg:text-2xl py-5 mt-2 mx-10">{{ usluge_podnaslov_7 }}</h1> 
       </div>  
       <p class="h-full lg:w-1/2 text-md lg:text-lg tracking-[0.2rem] leading-[1.8rem] lg:leading-[2.2rem] font-light uppercase p-10 lg:p-20">{{ usluge_mali_2 }}</p>     
 

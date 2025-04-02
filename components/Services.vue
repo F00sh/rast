@@ -1,28 +1,48 @@
 <template>
-  <div class="w-full h-full flex flex-col items-center justify-start mt-28 lg:px-0">
-     <img class="w-full lg:w-1/2" src="/public/img/digger.svg" alt="">
-      <div class="bg-[#154E3C] w-full lg:w-1/2 h-max items-center justify-center">
-        <h1 class="bg-[#154E3C] flex h-full font-montserrat text-white text-4xl lg:text-6xl font-black tracking-[0.8rem] lg:tracking-[1.5rem] uppercase ml-10 lg:ml-20 mt-20">Usluge</h1>
-      </div>
-      <p class="bg-[#154E3C] text-white  h-full lg:w-1/2 text-md lg:text-lg tracking-[0.2rem] leading-[1.8rem] lg:leading-[2.2rem] font-light uppercase p-10 lg:p-20">{{ usluge_mali_1  }}</p>
-      <div class="bg-gray-100 lg:w-1/2 w-full h-80 lg:h-150 flex items-center justify-center bg-center bg-cover bg-no-repeat bg-[url(/img/about_1.jpg)]"></div>
-      <div class="flex flex-col w-full items-center px-10 lg:px-0">
-        <h1 class="bg-[#60EF54] w-full lg:w-1/2 text-white text-center text-xl lg:text-2xl py-5 mt-10 lg:mt-20 mx-10">{{ usluge_podnaslov_1 }}</h1>
-        <h1 class="bg-[#38BA45] w-full lg:w-1/2 text-white text-center text-xl lg:text-2xl py-5 mt-2 mx-10">{{ usluge_podnaslov_2 }}</h1>
-        <h1 class="bg-[#25992B] w-full lg:w-1/2 text-white text-center text-xl lg:text-2xl py-5 mt-2 mx-10">{{ usluge_podnaslov_3 }}</h1>
-        <h1 class="bg-[#38BA45] w-full lg:w-1/2 text-white text-center text-xl lg:text-2xl py-5 mt-2 mx-10">{{ usluge_podnaslov_4 }}</h1> 
-        <h1 class="bg-[#60EF54] w-full lg:w-1/2 text-white text-center text-xl lg:text-2xl py-5 mt-2 mx-10">{{ usluge_podnaslov_5 }}</h1>
-        <h1 class="bg-[#38BA45] w-full lg:w-1/2 text-white text-center text-xl lg:text-2xl py-5 mt-2 mx-10">{{ usluge_podnaslov_6 }}</h1>
-        <h1 class="bg-[#25992B] w-full lg:w-1/2 text-white text-center text-xl lg:text-2xl py-5 mt-2 mx-10">{{ usluge_podnaslov_7 }}</h1> 
-      </div>  
-      <p class="h-full lg:w-1/2 text-md lg:text-lg tracking-[0.2rem] leading-[1.8rem] lg:leading-[2.2rem] font-light uppercase p-10 lg:p-20">{{ usluge_mali_2 }}</p>     
+  <div class="w-full flex flex-col items-center justify-start lg:mt-20 lg:px-0">
+    <div class="bg-[#25544A] flex flex-col lg:flex-row w-full lg:w-1/2 items-center justify-center">
+        <div>
+          <h1 class="bg-[#25544A] flex h-full font-montserrat text-white text-4xl lg:text-6xl font-black tracking-[0.8rem] lg:tracking-[1.5rem] uppercase ml-10 lg:ml-20 mt-20">usluge</h1>
+          <div class="bg-gray-100 h-1 w-1/3 ml-20 mt-5"></div>
+          <p class="bg-[#25544A] text-white h-full w-full p-20 text-md lg:text-lg tracking-[0.25rem] leading-[1.5rem] lg:leading-[2.2rem] font-light uppercase">{{ usluge_mali_1 }}</p>  
+        </div>
+        <img class="lg:w-1/2 mb-20 lg:mb-0" src="/public/img/items_grid_1.png" alt="">
+    </div>
 
+    <div class="desktop-only grid grid-cols-3 gap-1 lg:w-1/2 items-center justify-center text-center uppercase mt-1 mb-20">
+        <h1 class="bg-[#69BE5C] hover:bg-[#D35E29] flex h-full lg:leading-[2.2rem] tracking-[0.2rem] text-white text-center items-center text-lg lg:text-2xl p-10">{{ usluge_podnaslov_1 }}</h1>
+        <h1 class="bg-[#69BE5C] hover:bg-[#D35E29] flex h-full lg:leading-[2.2rem] tracking-[0.2rem] text-white text-center items-center text-lg lg:text-2xl p-10">{{ usluge_podnaslov_2 }}</h1>
+        <h1 class="bg-[#69BE5C] hover:bg-[#D35E29] flex h-full lg:leading-[2.2rem] tracking-[0.2rem] text-white text-center items-center text-lg lg:text-2xl p-10">{{ usluge_podnaslov_3 }}</h1>
+      
+        <h1 class="bg-[#69BE5C] hover:bg-[#D35E29] flex h-full lg:leading-[2.2rem] tracking-[0.2rem] text-white text-center items-center text-lg lg:text-2xl p-10">{{ usluge_podnaslov_5 }}</h1>
+        <h1 class="bg-[#69BE5C] hover:bg-[#D35E29] flex h-full lg:leading-[2.2rem] tracking-[0.2rem] text-white text-center items-center text-lg lg:text-2xl p-10">{{ usluge_podnaslov_6 }}</h1>
+        <h1 class="bg-[#69BE5C] hover:bg-[#D35E29] flex h-full lg:leading-[2.2rem] tracking-[0.2rem] text-white text-center items-center text-lg lg:text-2xl p-10">{{ usluge_podnaslov_7 }}</h1> 
+      </div>
+      <div class="mobile-only flex-col gap-1 lg:w-1/2 items-center justify-center text-center uppercase mt-1 lg:mb-20">
+        <h1 class="bg-[#69BE5C] hover:bg-[#D35E29] flex h-full lg:leading-[2.2rem] tracking-[0.2rem] text-white text-center items-center text-lg lg:text-2xl p-10">{{ usluge_podnaslov_1 }}</h1>
+        <h1 class="bg-[#69BE5C] hover:bg-[#D35E29] flex h-full lg:leading-[2.2rem] tracking-[0.2rem] text-white text-center items-center text-lg lg:text-2xl p-10">{{ usluge_podnaslov_2 }}</h1>
+        <h1 class="bg-[#69BE5C] hover:bg-[#D35E29] flex h-full lg:leading-[2.2rem] tracking-[0.2rem] text-white text-center items-center text-lg lg:text-2xl p-10">{{ usluge_podnaslov_3 }}</h1>
+      
+        <h1 class="bg-[#69BE5C] hover:bg-[#D35E29] flex h-full lg:leading-[2.2rem] tracking-[0.2rem] text-white text-center items-center text-lg lg:text-2xl p-10">{{ usluge_podnaslov_5 }}</h1>
+        <h1 class="bg-[#69BE5C] hover:bg-[#D35E29] flex h-full lg:leading-[2.2rem] tracking-[0.2rem] text-white text-center items-center text-lg lg:text-2xl p-10">{{ usluge_podnaslov_6 }}</h1>
+        <h1 class="bg-[#69BE5C] hover:bg-[#D35E29] flex h-full lg:leading-[2.2rem] tracking-[0.2rem] text-white text-center items-center text-lg lg:text-2xl p-10">{{ usluge_podnaslov_7 }}</h1> 
+      </div>    
+      <div class="bg-[#E8E8E8] lg:w-1/2 lg:rounded-4xl">
+        <p class="text-md lg:text-xl tracking-[0.2rem] leading-[1.8rem] lg:leading-[2.2rem] font-light uppercase p-10 lg:p-20">{{ usluge_mali_2 }}</p>     
+      </div>
   </div>
 
 </template>
-<script lang="ts" setup>
 
-  const usluge_podnaslov_1 = "Projektiranje vrtova i okućnica";
+<script lang="ts" setup>
+import { useRouter } from 'vue-router'
+const router = useRouter()
+
+const navigateTo = (path: string) => {
+  router.push(path)
+}
+
+const usluge_podnaslov_1 = "Projektiranje vrtova i okućnica";
   const usluge_podnaslov_2 = "Košnja i održavanje travnjaka";
   const usluge_podnaslov_3 = "Postavljanje travnatih tepiha";
   const usluge_podnaslov_4 = "Navodnjavanje i sustavi za zalijevanje";
@@ -34,3 +54,25 @@
   const usluge_mali_2 = "S našim stručnim timom i prilagođenim rješenjima, vaš vanjski prostor može postati oaza opuštanja i ljepote. Javite nam se kako bismo zajedno stvorili zelenu površinu iz vaših snova!";
 
 </script>
+
+<style scoped>
+.desktop-only {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .desktop-only {
+    display: grid;
+  }
+}
+
+.mobile-only {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .mobile-only {
+    display: flex;
+  }
+}
+</style>

@@ -1,7 +1,7 @@
 <template>
   <div class="sticky">
     <!-- Navbar Container (Sticky) -->
-    <div class="absolute top-0 left-0 z-50">
+    <div class="relative top-0 z-50">
       <div class="absolute top-0 w-full h-24 flex justify-between items-center px-4">
         <!-- Logo -->
         <div class="h-28 w-28 flex items-center justify-center p-5">

@@ -1,7 +1,14 @@
 <template>
-  <div class="flex flex-col w-full items-center justify-center text-center text-white mt-40">
-    <img class="lg:w-1/2" src="/public/img/brda_1.svg" alt="">
-    <h1 class="bg-[#0D1C2D] w-full lg:w-1/2 pt-10 pb-5 text-3xl">+385 90 555 555</h1>
-    <h1 class="bg-[#0D1C2D] w-full lg:w-1/2 pb-10 text-3xl">info@rast.hr</h1>
+  <div class=" flex w-full items-center justify-center text-center mt-1">
+    <div class="bg-[#69BE5C] lg:w-1/2 w-full flex justify-between items-start">
+      <div class="h-50 w-1/2 flex items-center justify-center text-[#E8E8E8]">
+
+      <img class="h-full pt-10" src="/public/img/logo_round.svg" alt="">
+    </div>
+    <div class="w-1/2 h-50 flex flex-col items-center justify-center">
+      <h1 class="pb-1 text-lg lg:text-3xl">+385 90 555 555</h1>
+      <h1 class="pt-1 text-xl lg:text-4xl">info@rast.hr</h1>
+    </div>
+    </div>
   </div>
 </template>

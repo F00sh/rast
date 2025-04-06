@@ -2,13 +2,13 @@
   <div class="w-full flex flex-col items-center justify-start lg:px-0">
     <div class="bg-[#25544A] flex flex-col lg:flex-row w-full lg:w-1/2 items-center justify-center">
         <div>
-          <h1 class="bg-[#25544A] flex h-full font-montserrat text-white text-4xl lg:text-6xl font-black tracking-[0.8rem] lg:tracking-[1.5rem] uppercase ml-10 lg:ml-20 mt-28">usluge</h1>
-          <div class="bg-gray-100 h-1 w-1/3 ml-20 mt-5"></div>
-          <p class="bg-[#25544A] text-white h-full w-full p-20 text-md lg:text-lg tracking-[0.25rem] leading-[1.5rem] lg:leading-[2.2rem] font-light uppercase">{{ usluge_mali_1 }}</p>  
+          <h1 class="bg-[#25544A] flex h-full font-montserrat text-white text-4xl lg:text-6xl font-black tracking-[0.8rem] lg:tracking-[1.5rem] uppercase ml-10 lg:ml-0 mt-28">usluge</h1>
+          <div class="bg-gray-100 h-1 w-1/3 ml-10 lg:ml-0 mt-5"></div>
+          <p class="bg-[#25544A] text-white h-full w-full py-20 lg:px-0 px-10 text-md lg:text-lg tracking-[0.25rem] leading-[1.5rem] lg:leading-[2.2rem] font-light uppercase">{{ usluge_mali_1 }}</p>  
         </div>
         <img class="lg:w-1/2 mb-20 lg:mb-0" src="/public/img/items_grid_1.png" alt="">
     </div>
-
+    <img class="lg:w-1/2" src="/public/img/dubrava_8.png" alt="">
     <div class="desktop-only grid grid-cols-3 gap-1 lg:w-1/2 items-center justify-center text-center uppercase my-1">
         <h1 class="bg-[#69BE5C] hover:bg-[#D35E29] flex h-full lg:leading-[2.2rem] tracking-[0.2rem] text-white text-center  items-center text-lg lg:text-2xl p-10">{{ usluge_podnaslov_1 }}</h1>
         <h1 class="bg-[#69BE5C] hover:bg-[#D35E29] flex h-full lg:leading-[2.2rem] tracking-[0.2rem] text-white text-center items-center text-lg lg:text-2xl p-10">{{ usluge_podnaslov_2 }}</h1>
@@ -29,7 +29,7 @@
       </div>
       <img class="lg:w-1/2" src="/public/img/bukovac.png" alt="">    
       <div class="lg:w-1/2 lg:rounded-4xl text-[#E8E8E8]">
-        <p class="text-md lg:text-xl tracking-[0.2rem] leading-[1.8rem] lg:leading-[2.2rem] font-light uppercase p-10 lg:p-20">{{ usluge_mali_2 }}</p>     
+        <p class="bg-[#69BE5C] h-full text-gray-100 text-md lg:text-xl tracking-[0.25rem] leading-[1.8rem] lg:leading-[2.2rem] font-light uppercase p-10 lg:p-20 my-1">{{ usluge_mali_2 }}</p>     
       </div>
   </div>
 

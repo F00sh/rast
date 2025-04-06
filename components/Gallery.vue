@@ -1,16 +1,10 @@
 <template>
   <!-- Gallery Container -->
-  <div class="bg-[#478957] lg:w-1/2 mx-auto">
-    <div class="flex flex-col lg:flex-row w-full h-max items-center justify-center">
-        <div class="flex flex-col lg:w-1/2">
-          <h1 class="flex h-full font-montserrat text-white text-4xl lg:text-6xl font-black tracking-[0.8rem] lg:tracking-[1.5rem] uppercase lg:ml-20 mt-28">galerija</h1>
-          <div class="bg-gray-100 h-1 w-1/3 mt-5 lg:ml-20 mb-20"></div>
- 
-        </div>
-
-      </div>
+  <div class="bg-[#478957] lg:w-1/2 mx-auto pt-28">
+    <h1 class="flex h-full font-montserrat text-white text-4xl lg:text-6xl font-black tracking-[0.8rem] lg:tracking-[1.5rem] uppercase ml-10 lg:ml-20">galerija</h1>
+    <div class="bg-gray-100 h-1 w-1/3 mt-5 ml-10 lg:ml-20 mb-10"></div>
     <!-- Gallery Grid -->
-    <div class="grid grid-cols-3 gap-1">
+    <div class="grid grid-cols-3 gap-1 p-1 lg:p-20 lg:pt-10">
       <div
         v-for="(img, index) in images"
         :key="index"

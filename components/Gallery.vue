@@ -1,16 +1,16 @@
 <template>
   <!-- Gallery Container -->
-  <div class="lg:w-1/2 mx-auto">
-    <div class="bg-[#D35E29] flex flex-col lg:flex-row w-full h-max items-center justify-center">
+  <div class="bg-[#478957] lg:w-1/2 mx-auto">
+    <div class="flex flex-col lg:flex-row w-full h-max items-center justify-center">
         <div class="flex flex-col lg:w-1/2">
-          <h1 class="bg-[#D35E29] flex h-full font-montserrat text-white text-4xl lg:text-6xl font-black tracking-[0.8rem] lg:tracking-[1.5rem] uppercase lg:ml-20 mt-20">galerija</h1>
-          <div class="bg-gray-100 h-1 w-1/3 mt-5 lg:ml-20"></div>
+          <h1 class="flex h-full font-montserrat text-white text-4xl lg:text-6xl font-black tracking-[0.8rem] lg:tracking-[1.5rem] uppercase lg:ml-20 mt-28">galerija</h1>
+          <div class="bg-gray-100 h-1 w-1/3 mt-5 lg:ml-20 mb-20"></div>
  
         </div>
-        <img class="lg:w-1/2 mb-10 lg:mb-0 mt-10 lg:mt-0" src="/public/img/posada_3.png" alt="">
+
       </div>
     <!-- Gallery Grid -->
-    <div class="grid grid-cols-3 gap-4">
+    <div class="grid grid-cols-3 gap-1">
       <div
         v-for="(img, index) in images"
         :key="index"

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="bg-[#25544A]">
     
       <NuxtRouteAnnouncer />
       <NuxtLayout>

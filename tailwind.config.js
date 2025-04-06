@@ -11,6 +11,7 @@ module.exports = {
       fontFamily: {
         Crimson_bold: ["Crimson", "sans-serif"],
         Bodoni_Moda: ["Bodoni Moda", "serif"],
+        Montserrat: ["Montserrat", "sans-serif"],
       },
       colors: {
         brand: {

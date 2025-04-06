@@ -1,5 +1,5 @@
 <template>
-  <div class="sticky">
+  <div class="sticky w-full">
     <!-- Navbar Container (Sticky) -->
     <div class="relative top-0 z-50">
       <div class="absolute top-0 w-full h-24 flex justify-between items-center px-4">

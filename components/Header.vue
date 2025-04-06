@@ -1,16 +1,18 @@
 <template>
-<DIV class="flex flex-col font-montserrat w-full h-screen lg:h-max items-center justify-between">
-  <div class="w-full lg:w-1/2 lg:px-0 lg:pl-0 flex flex-col justify-between">
-    <img class="w-1/2 mt-20" src="/public/img/logo_round.svg" alt="">
-    <div class="w-max flex mx-auto lg:mx-0 items-center justify-center lg:justify-start border-5 border-[#1D713D] rounded-full lg:rounded-l-none lg:rounded-r-full">
-      <button class="bg-[#38BA45] flex flex-col items-center text-xl lg:text-2xl font-light text-white text-center uppercase m-2 px-10 py-5 tracking-[0.6rem] lg:tracking-[1rem] rounded-full lg:rounded-l-none lg:rounded-r-full shadow-lg">kontakt</button>
-    </div>   
+  <div class="relative w-full h-screen flex flex-col items-center justify-center">
+    <div class="desktop-only flex flex-col z-10 top-0 right-0 w-1/2 h-1/2 items-end justify-center bg-[#25544A]">
+      <button class="z-10 text-center bg-[#25544A] border border-[#478957] text-[#69BE5C] text-xl tracking-[0.7rem] lg:ml-10 mt-10 w-60 py-4 uppercase shadow-xl"><a href="Footer">o nama</a></button>
+      <button class="z-10 text-center bg-[#25544A] border border-[#478957] text-[#69BE5C] text-xl tracking-[0.7rem] lg:ml-10 mt-10 w-60 py-4 uppercase shadow-xl"><a href="Footer">usluge</a></button>
+      <button class="z-10 text-center bg-[#25544A] border border-[#478957] text-[#69BE5C] text-xl tracking-[0.7rem] lg:ml-10 mt-10 w-60 py-4 uppercase shadow-xl"><a href="Footer">galerija</a></button>      
+    </div>
+    <div class="bg-[#25544A] w-full lg:w-1/2 h-screen flex flex-col items-center lg:items-start justify-end">
+      <div class="absolute z-20 flex flex-col w-2/3 lg:w-1/4 top-0 mt-20 justify-center items-center lg:items-start">
+        <img class="ml-5 lg:ml-0" src="/public/img/logo_new_img.svg" alt="">
+        <a href="Footer" class="z-10 text-center flex items-center justify-between border-4 border-[#478957] text-[#69BE5C] font-bold text-xl tracking-[0.7rem] mt-10 px-4 pl-7 py-4 uppercase shadow-xl rounded-r-full"><h1>kontakt</h1><img class="w-16 ml-4 drop-shadow-lg" src="/public/img/logo_round_light.svg" alt=""></a>
+      </div>
+      <img src="/public/img/header_new_image.png" alt="">
+    </div>
   </div>
-  <div class="w-full lg:w-1/2">
-    <img class="mx-0 mt-auto" src="/public/img/AI_header_1.png" alt="">
-
-  </div>
-</DIV>
 </template>
 
 <script lang="ts" setup>

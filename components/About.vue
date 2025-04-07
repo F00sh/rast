@@ -4,7 +4,7 @@
         <div class="flex flex-col">
           <h1 class="bg-[#478957] flex h-full font-montserrat text-white text-4xl lg:text-6xl font-black tracking-[0.8rem] lg:tracking-[1.5rem] uppercase ml-10 lg:ml-20 mt-28">O nama</h1>
           <div class="bg-gray-100 h-1 w-1/3 ml-10 lg:ml-20 mt-5"></div>
-          <p class="bg-[#478957] text-white h-full w-full pt-20 px-10 lg:px-20 text-md lg:text-lg tracking-[0.25rem] leading-[1.5rem] lg:leading-[2.2rem] font-light uppercase">{{ text_about_long_1  }}</p>  
+          <p class="bg-[#478957] text-white h-full w-full pt-20 pb-10 px-10 lg:px-20 text-md lg:text-lg tracking-[0.25rem] leading-[1.5rem] lg:leading-[2.2rem] font-light uppercase">{{ text_about_long_1  }}</p>  
         </div>
         <img class=" w-11/12 mb-20 lg:mb-14" src="/public/img/posada_2.png" alt="">
       </div>

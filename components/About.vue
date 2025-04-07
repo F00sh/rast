@@ -12,18 +12,25 @@
 
      <img class="lg:w-1/2 mt-1" src="/public/img/rotor.png" alt="">
       <div class="flex flex-col lg:flex-row h-full w-full lg:w-1/2 gap-1 mt-1 items-center justify-center text-center font-light uppercase">
-          <h1 class="flex lg:h-60 items-center bg-[#69BE5C] hover:bg-[#D35E29] lg:leading-[2.2rem] tracking-[0.2rem] text-white text-center text-lg lg:text-2xl py-5 px-5 w-full lg:w-1/2">{{ text_about_short_1 }}</h1>
-          <h1 class="flex lg:h-60 items-center bg-[#69BE5C] hover:bg-[#D35E29] lg:leading-[2.2rem] tracking-[0.2rem] text-white text-center text-lg lg:text-2xl py-5 px-5 w-full lg:w-1/2">{{ text_about_short_2 }}</h1>
-          <h1 class="flex lg:h-60 items-center bg-[#69BE5C] hover:bg-[#D35E29] lg:leading-[2.2rem] tracking-[0.2rem] text-white text-center text-lg lg:text-2xl py-5 px-5 w-full lg:w-1/2">{{ text_about_short_3 }}</h1>
-          <h1 class="flex lg:h-60 items-center bg-[#69BE5C] hover:bg-[#D35E29] lg:leading-[2.2rem] tracking-[0.2rem] text-white text-center text-lg lg:text-2xl py-5 px-5 w-full lg:w-1/2">{{ text_about_short_4 }}</h1>
+          <h1 class="flex lg:h-60 items-center bg-[#D35E29] lg:leading-[2.2rem] tracking-[0.2rem] text-white text-center text-lg lg:text-2xl py-5 px-5 w-full lg:w-1/2">{{ text_about_short_1 }}</h1>
+          <h1 class="flex lg:h-60 items-center bg-[#D35E29] lg:leading-[2.2rem] tracking-[0.2rem] text-white text-center text-lg lg:text-2xl py-5 px-5 w-full lg:w-1/2">{{ text_about_short_2 }}</h1>
+          <h1 class="flex lg:h-60 items-center bg-[#D35E29] lg:leading-[2.2rem] tracking-[0.2rem] text-white text-center text-lg lg:text-2xl py-5 px-5 w-full lg:w-1/2">{{ text_about_short_3 }}</h1>
+          <h1 class="flex lg:h-60 items-center bg-[#D35E29] lg:leading-[2.2rem] tracking-[0.2rem] text-white text-center text-lg lg:text-2xl py-5 px-5 w-full lg:w-1/2">{{ text_about_short_4 }}</h1>
         
       </div>
 
       <div class="flex flex-col w-full lg:w-1/2 items-start justify-center uppercase mt-1">
-        <p class="bg-[#E8E8E8] text-md lg:text-lg tracking-[0.2rem] leading-[1.8rem] lg:leading-[2.2rem] font-light uppercase pt-10 lg:pt-20 px-10 lg:px-20">{{ text_about_long_2  }}</p>
+        <p class="bg-[#E8E8E8] text-md lg:text-lg tracking-[0.2rem] leading-[1.8rem] lg:leading-[2.2rem] font-light uppercase py-10 lg:py-20 px-10 lg:px-20">{{ text_about_long_2  }}</p>
         <img class="bg-[#E8E8E8] " src="/public/img/o_nama_1.png" alt="">
       </div>
-      <p class="bg-[#69BE5C] h-full text-gray-100 lg:w-1/2 text-md lg:text-xl tracking-[0.25rem] leading-[1.8rem] lg:leading-[2.2rem] font-light uppercase p-10 lg:p-20 my-1">{{ text_about_long_3  }}</p>
+ <div class="desktop-only flex w-1/2 h-full my-1 gap-1 items-center justify-center">
+  <img class="w-1/2" src="/public/img/vozimo.png" alt="">
+  <div><p class="text-gray-100 my-0 text-md lg:text-xl tracking-[0.25rem] leading-[1.8rem] lg:leading-[2.2rem] font-light uppercase p-10">{{ text_about_long_3  }}</p></div>
+ </div>
+ <div class="mobile-only flex flex-col w-full h-full my-1 gap-1 items-center justify-center">
+  <div><p class="text-gray-100 my-0 text-md lg:text-xl tracking-[0.25rem] leading-[1.8rem] lg:leading-[2.2rem] font-light uppercase p-10">{{ text_about_long_3  }}</p></div>
+  <img class="w-full" src="/public/img/vozimo.png" alt="">
+ </div>
       <img class="lg:w-1/2" src="/public/img/bukovac_8.png" alt="">    
   </div>
 </template>

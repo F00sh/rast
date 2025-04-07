@@ -26,7 +26,7 @@
         <h1 class="bg-[#D35E29] flex h-full lg:leading-[2.2rem] tracking-[0.2rem] text-white text-center items-center text-lg lg:text-2xl py-5 px-20">{{ usluge_podnaslov_3 }}</h1>
         <img src="/public/img/berba.png" alt="">
         <h1 class="bg-[#D35E29] flex h-full lg:leading-[2.2rem] tracking-[0.2rem] text-white text-center items-center text-lg lg:text-2xl py-5 px-30">{{ usluge_podnaslov_5 }}</h1>
-        <h1 class="bg-[#D35E29] flex h-full lg:leading-[2.2rem] tracking-[0.2rem] text-white text-center items-center text-lg lg:text-2xl py-5 px-30">{{ usluge_podnaslov_6 }}</h1>
+        <h1 class="bg-[#D35E29] flex h-full lg:leading-[2.2rem] tracking-[0.2rem] text-white text-center items-center text-lg lg:text-2xl py-5 px-28">{{ usluge_podnaslov_6 }}</h1>
         <h1 class="bg-[#D35E29] flex h-full lg:leading-[2.2rem] tracking-[0.2rem] text-white text-center items-center text-lg lg:text-2xl py-5 px-20">{{ usluge_podnaslov_7 }}</h1> 
       </div>
   

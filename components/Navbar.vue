@@ -2,7 +2,7 @@
   <!-- The navbar container (fixed). 
        We'll animate it off-screen when scrolling. -->
   <nav
-    class="mobile-only fixed top-5 left-5 w-full h-[60px] flex items-center justify-start transition-transform duration-300 z-50"
+    class="mobile-only fixed top-2 right-2 w-full h-[60px] flex items-center justify-end transition-transform duration-300 z-50"
     :class="{ '-translate-y-full': hideNavbar }"
   >
     <!-- The toggle button (top-right). -->

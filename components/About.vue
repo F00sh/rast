@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full h-full flex flex-col items-center justify-start mt-1">
+  <div id="about" class="w-full h-full flex flex-col items-center justify-start mt-1">
       <div class="bg-[#478957] flex flex-col  w-full lg:w-1/2 h-max items-center justify-center">
         <div class="flex flex-col">
           <h1 class="bg-[#478957] flex h-full font-montserrat text-white text-4xl lg:text-6xl font-black tracking-[0.8rem] lg:tracking-[1.5rem] uppercase ml-10 lg:ml-20 mt-28">O nama</h1>
@@ -8,9 +8,6 @@
         </div>
         <img class=" w-11/12 mb-20 lg:mb-14" src="/public/img/posada_2.png" alt="">
       </div>
-
-
-     <img class="lg:w-1/2 mt-1" src="/public/img/rotor.png" alt="">
       <div class="flex flex-col lg:flex-row h-full w-full lg:w-1/2 gap-1 mt-1 items-center justify-center text-center font-light uppercase">
           <h1 class="flex lg:h-60 items-center bg-[#D35E29] lg:leading-[2.2rem] tracking-[0.2rem] text-white text-center text-lg lg:text-2xl py-5 px-5 w-full lg:w-1/2">{{ text_about_short_1 }}</h1>
           <h1 class="flex lg:h-60 items-center bg-[#D35E29] lg:leading-[2.2rem] tracking-[0.2rem] text-white text-center text-lg lg:text-2xl py-5 px-5 w-full lg:w-1/2">{{ text_about_short_2 }}</h1>
@@ -25,13 +22,13 @@
       </div>
  <div class="desktop-only flex w-1/2 h-full my-1 gap-1 items-center justify-center">
   <img class="w-1/2" src="/public/img/vozimo.png" alt="">
-  <div><p class="text-gray-100 my-0 text-md lg:text-xl tracking-[0.25rem] leading-[1.8rem] lg:leading-[2.2rem] font-light uppercase p-10 py-20">{{ text_about_long_3  }}</p></div>
+  <div><p class="text-gray-100 my-0 text-md lg:text-xl tracking-[0.25rem] leading-[1.8rem] lg:leading-[2.2rem] font-light uppercase p-10 lg:p-20 py-20">{{ text_about_long_3  }}</p></div>
  </div>
  <div class="mobile-only flex flex-col w-full h-full my-1 gap-1 items-center justify-center">
   <div><p class="text-gray-100 my-0 text-md lg:text-xl tracking-[0.25rem] leading-[1.8rem] lg:leading-[2.2rem] font-light uppercase p-10 py-20">{{ text_about_long_3  }}</p></div>
   <img class="w-full" src="/public/img/vozimo.png" alt="">
  </div>
-      <img class="lg:w-1/2" src="/public/img/bukovac_8.png" alt="">    
+    
   </div>
 </template>
 

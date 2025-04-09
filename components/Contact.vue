@@ -1,12 +1,12 @@
 <template>
-    <section class="w-full bg-[var(--gray-light)] pb-8">
-      <div class="max-w-5xl mx-auto px-4">
+    <section id="kontakt" class="w-full my-1">
+      <div class="mx-auto px-4 lg:w-1/2 bg-gray-100 pb-20">
         <!-- Heading -->
         <h2 class="flex h-full font-montserrat text-[var(--teal-dark)] text-4xl lg:text-6xl font-black tracking-[0.8rem] lg:tracking-[1.5rem] uppercase ml-10 lg:ml-20 pt-28">
           Kontakt
         </h2>
-        <div class="bg-[var(--orange-dark)] h-1 w-1/3 ml-10 lg:ml-20 mt-5 mb-10"></div>
-        <div class="flex flex-col md:flex-row md:space-x-8 space-y-4 md:space-y-0">
+        <div class="bg-[var(--orange-dark)] h-1 w-1/3 ml-10 lg:ml-20 mt-5 mb-20"></div>
+        <div class="flex flex-col md:flex-row md:space-x-8 space-y-4 md:space-y-0 lg:mx-10">
           <!-- Call and WhatsApp Buttons -->
           <div class="flex-1 flex flex-col space-y-4">
             <button

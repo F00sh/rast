@@ -2,12 +2,12 @@
   <!-- The navbar container (fixed). 
        We'll animate it off-screen when scrolling. -->
   <nav
-    class="mobile-only fixed top-0 right-0 w-full h-[60px] flex items-center justify-end px-4 transition-transform duration-300 z-50"
+    class="mobile-only fixed top-5 left-5 w-full h-[60px] flex items-center justify-start transition-transform duration-300 z-50"
     :class="{ '-translate-y-full': hideNavbar }"
   >
     <!-- The toggle button (top-right). -->
-    <button class="text-white text-lg" @click="toggleNavbar">
-      {{ navbarOpen ? 'Close' : 'Menu' }}
+    <button class="text-sm z-20 border-1 border-[var(--green-dark)] text-[var(--green-light)] px-4 py-2 uppercase tracking-[0.2rem] shadow-lg" @click="toggleNavbar">
+      {{ navbarOpen ? 'zatvori' : 'izbornik' }}
     </button>
 
     <!-- The overlay with blur, appears only if navbarOpen is true. -->
@@ -19,21 +19,21 @@
         <!-- 3 NuxtLink items -->
         <NuxtLink
           to="/#about"
-          class="text-xl text-white mt-4"
+          class="text-sm z-20 border-1 border-[var(--green-dark)] text-[var(--green-light)] px-4 py-2 uppercase tracking-[0.2rem] shadow-lg w-40 text-center"
           @click="toggleNavbar"
         >
           O nama
         </NuxtLink>
         <NuxtLink
           to="/#usluge"
-          class="text-xl text-white mt-4"
+          class="text-sm z-20 border-1 border-[var(--green-dark)] text-[var(--green-light)] px-4 py-2 uppercase tracking-[0.2rem] shadow-lg mt-10 w-40 text-center"
           @click="toggleNavbar"
         >
           Usluge
         </NuxtLink>
         <NuxtLink
           to="/#galerija"
-          class="text-xl text-white mt-4"
+          class="text-sm z-20 border-1 border-[var(--green-dark)] text-[var(--green-light)] px-4 py-2 uppercase tracking-[0.2rem] shadow-lg mt-10 w-40 text-center"
           @click="toggleNavbar"
         >
           Galerija

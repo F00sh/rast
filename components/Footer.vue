@@ -1,5 +1,5 @@
 <template>
-  <div class=" flex w-full items-center justify-center text-center mt-1">
+  <div class=" flex w-full items-center justify-center text-center">
     <div class="bg-[#69BE5C] lg:w-1/2 w-full flex justify-between items-start">
       <div class="h-50 w-1/2 flex items-center justify-center text-[#E8E8E8]">
 

@@ -4,5 +4,6 @@
     <About />
     <Services />
     <Gallery />
+    <Contact />
   </div>
 </template>

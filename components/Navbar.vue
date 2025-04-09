@@ -1,116 +1,109 @@
 <template>
-  <div class="sticky w-full">
-    <!-- Navbar Container (Sticky) -->
-    <div class="relative top-0 z-50">
-      <div class="absolute top-0 w-full h-24 flex justify-between items-center px-4">
-        <!-- Logo -->
-        <div class="h-28 w-28 flex items-center justify-center p-5">
-          <a href="#home">
-            <img src="/img/logo_img.svg" alt="Logo" />
-          </a>
-        </div>
-        <!-- Desktop Horizontal Menu (Large screens and above) -->
-        <div class="hidden lg:block text-white text-xl font-semibold">
-          <ul class="flex pr-5 space-x-5">
-            <li class="bg-green-300 py-2 px-4 shadow-md">
-              <a href="#about">about</a>
-            </li>
-            <li class="bg-green-300 py-2 px-4 shadow-md">
-              <a href="#services">services</a>
-            </li>
-            <li class="bg-green-300 py-2 px-4 shadow-md">
-              <a href="#contact">contact</a>
-            </li>
-          </ul>
-        </div>
-        <!-- Mobile Menu Button (Small & Medium screens) -->
-        <div class="lg:hidden">
-          <button
-            @click="toggleMenu"
-            :class="[
-              'bg-green-300 py-2 px-4 shadow-md text-white text-xl font-semibold transition-transform duration-300 transform',
-              menuOpen ? '-translate-y-[500px]' : 'translate-y-0'
-            ]"
-          >
-            Menu
-          </button>
-        </div>
-      </div>
-    </div>
+  <!-- The navbar container (fixed). 
+       We'll animate it off-screen when scrolling. -->
+  <nav
+    class="mobile-only fixed top-0 right-0 w-full h-[60px] flex items-center justify-end px-4 transition-transform duration-300 z-50"
+    :class="{ '-translate-y-full': hideNavbar }"
+  >
+    <!-- The toggle button (top-right). -->
+    <button class="text-white text-lg" @click="toggleNavbar">
+      {{ navbarOpen ? 'Close' : 'Menu' }}
+    </button>
 
-    <!-- Backdrop with Blur Animation (behind the pop-out) -->
-    <transition name="fade-blur">
+    <!-- The overlay with blur, appears only if navbarOpen is true. -->
+    <transition name="fade">
       <div
-        v-if="menuOpen"
-        class="fixed inset-0 z-30 bg-opacity-30 backdrop-blur-sm"
-      ></div>
-    </transition>
-
-    <!-- Mobile Pop-out Menu -->
-    <transition name="slide">
-      <div
-        v-if="menuOpen"
-        class="fixed top-0 right-0 w-2/3 h-full bg-green-300 shadow-lg flex flex-col items-center justify-center z-40"
+        v-if="navbarOpen"
+        class="fixed inset-0 backdrop-blur-sm bg-black/50 flex flex-col items-center justify-center"
       >
-        <ul class="flex flex-col space-y-5 text-white text-xl font-semibold">
-          <li class="py-2 px-4">
-            <a href="#about" @click="toggleMenu">about</a>
-          </li>
-          <li class="py-2 px-4">
-            <a href="#services" @click="toggleMenu">services</a>
-          </li>
-          <li class="py-2 px-4">
-            <a href="#contact" @click="toggleMenu">contact</a>
-          </li>
-        </ul>
+        <!-- 3 NuxtLink items -->
+        <NuxtLink
+          to="/#about"
+          class="text-xl text-white mt-4"
+          @click="toggleNavbar"
+        >
+          O nama
+        </NuxtLink>
+        <NuxtLink
+          to="/#usluge"
+          class="text-xl text-white mt-4"
+          @click="toggleNavbar"
+        >
+          Usluge
+        </NuxtLink>
+        <NuxtLink
+          to="/#galerija"
+          class="text-xl text-white mt-4"
+          @click="toggleNavbar"
+        >
+          Galerija
+        </NuxtLink>
       </div>
     </transition>
-  </div>
+  </nav>
 </template>
 
-<script>
-export default {
-  data() {
-    return {
-      menuOpen: false,
-    };
-  },
-  methods: {
-    toggleMenu() {
-      this.menuOpen = !this.menuOpen;
-    },
-  },
-};
+<script setup lang="ts">
+import { ref, onMounted, onBeforeUnmount } from 'vue'
+import { NuxtLink } from '#components'
+
+// Whether the navbar is open (showing the overlay)
+const navbarOpen = ref(false)
+// Whether we hide the navbar (slide up off-screen)
+const hideNavbar = ref(false)
+
+// Toggle the navbar
+function toggleNavbar() {
+  navbarOpen.value = !navbarOpen.value
+}
+
+// If user scrolls down, hide the navbar
+function onScroll() {
+  // If the user has scrolled at all, hide the navbar
+  hideNavbar.value = window.scrollY > 0
+}
+
+onMounted(() => {
+  window.addEventListener('scroll', onScroll)
+})
+
+onBeforeUnmount(() => {
+  window.removeEventListener('scroll', onScroll)
+})
 </script>
 
 <style scoped>
-/* Transition for the pop-out menu sliding in/out from the right */
-.slide-enter-active,
-.slide-leave-active {
-  transition: transform 0.3s ease;
-}
-.slide-enter-from,
-.slide-leave-to {
-  transform: translateX(100%);
-}
-.slide-enter-to,
-.slide-leave-from {
-  transform: translateX(0);
+.desktop-only {
+  display: none;
 }
 
-/* Transition for the backdrop blur effect */
-.fade-blur-enter-active,
-.fade-blur-leave-active {
-  transition: backdrop-filter 0.3s ease, background-color 0.3s ease;
+@media screen and (min-width: 1024px) {
+  .desktop-only {
+    display: flex;
+  }
 }
-.fade-blur-enter-from,
-.fade-blur-leave-to {
-  backdrop-filter: blur(0px);
-  
+
+.mobile-only {
+  display: none;
 }
-.fade-blur-enter-to,
-.fade-blur-leave-from {
-  backdrop-filter: blur(5px);
- 
+
+@media screen and (max-width: 1024px) {
+  .mobile-only {
+    display: flex;
+  }
+}
+/* Fade transition for overlay */
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s;
+}
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+/* Slide-up class (we apply -translate-y-full if hideNavbar) */
+.-translate-y-full {
+  transform: translateY(-100%);
 }
 </style>

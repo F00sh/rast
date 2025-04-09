@@ -1,10 +1,12 @@
 
-@tailwind utilities;
-
-
 @import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap");
 
 @import "tailwindcss";
+
+/* Ensure Tailwind CSS is properly configured in your build process */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 html,
 body {
@@ -23,11 +25,13 @@ body {
     --green-dark: #478957;
     --orange-dark: #D35E29;
     --teal-dark: #25544A;
+
   }
 }
-
 /* Example usage of the variables in custom CSS */
 .my-custom-class {
   background-color: var(--gray-light);
-  color: var(--green-dark);
+/* Removed invalid syntax. Use Tailwind classes directly in HTML or JavaScript frameworks. */
 }
+
+:class="{ '-translate-y-full': hideMenu }"

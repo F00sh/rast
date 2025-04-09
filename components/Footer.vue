@@ -6,8 +6,8 @@
       <img class="h-full pt-10" src="/public/img/logo_round.svg" alt="">
     </div>
     <div class="w-1/2 h-50 flex flex-col items-center justify-center">
-      <h1 class="pb-1 text-lg lg:text-3xl">+385 90 555 555</h1>
-      <h1 class="pt-1 text-xl lg:text-4xl">info@rast.hr</h1>
+      <h1 class="pb-1 text-lg lg:text-3xl font-bold text-gray-100">+385 90 555 555</h1>
+      <h1 class="pt-1 text-xl lg:text-4xl font-bold text-gray-100">info@rast.hr</h1>
     </div>
     </div>
   </div>

@@ -3,8 +3,8 @@
     <div class="bg-[#25544A] flex flex-col lg:flex-row w-full lg:w-1/2 items-start justify-between">
         <div class="flex flex-col items-start justify-center lg:items-start lg:justify-start h-full bg-[#25544A]">
           <h1 class="bg-[#25544A] flex h-full font-montserrat text-white text-4xl lg:text-6xl font-black tracking-[0.8rem] lg:tracking-[1.5rem] uppercase ml-10 lg:ml-0 mt-20">usluge</h1>
-          <div class="bg-gray-100 h-1 w-1/3 ml-10 lg:ml-0 mt-5"></div>
-          <p class="bg-[#25544A] text-white h-full w-full pt-10 pb-20 lg:pb-20 lg:pr-5 px-10 lg:px-0 text-md lg:text-lg tracking-[0.25rem] leading-[1.5rem] lg:leading-[2.2rem] font-light uppercase">{{ usluge_mali_1 }}</p>  
+          <div class="bg-[var(--orange-dark)] h-1 w-1/3 ml-10 lg:ml-0 mt-5"></div>
+          <p class="bg-[#25544A] text-white h-full w-full pt-20 pb-20 lg:pb-20 lg:pr-5 px-10 lg:px-0 text-md lg:text-lg tracking-[0.25rem] leading-[1.5rem] lg:leading-[2.2rem] font-light uppercase">{{ usluge_mali_1 }}</p>  
         </div>
         
     </div>
@@ -33,7 +33,7 @@
         <img class="w-1/2 mb-1" src="/public/img/dubrava_7.png" alt="">        
       </div>
       <div class="flex flex-col lg:flex-row lg:w-1/2 text-[#E8E8E8] mb-1">
-        <p class="h-full text-gray-100 text-md lg:text-xl tracking-[0.25rem] leading-[1.8rem] lg:leading-[2.2rem] font-light uppercase p-10 lg:p-20 my-1">{{ usluge_mali_2 }}</p>     
+        <p class="h-full text-gray-100 text-md lg:text-xl tracking-[0.25rem] leading-[1.8rem] lg:leading-[2.2rem] font-light uppercase p-10 py-20 lg:p-20">{{ usluge_mali_2 }}</p>     
       </div>
   </div>
 

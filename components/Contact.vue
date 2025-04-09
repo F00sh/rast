@@ -1,16 +1,16 @@
 <template>
-    <section class="w-full bg-[var(--gray-light)] py-8">
+    <section class="w-full bg-[var(--gray-light)] pb-8">
       <div class="max-w-5xl mx-auto px-4">
         <!-- Heading -->
-        <h2 class="text-xl md:text-2xl font-semibold mb-6 text-[var(--teal-dark)]">
-          Kontaktirajte nas
+        <h2 class="flex h-full font-montserrat text-[var(--teal-dark)] text-4xl lg:text-6xl font-black tracking-[0.8rem] lg:tracking-[1.5rem] uppercase ml-10 lg:ml-20 pt-28">
+          Kontakt
         </h2>
-        
+        <div class="bg-[var(--orange-dark)] h-1 w-1/3 ml-10 lg:ml-20 mt-5 mb-10"></div>
         <div class="flex flex-col md:flex-row md:space-x-8 space-y-4 md:space-y-0">
           <!-- Call and WhatsApp Buttons -->
           <div class="flex-1 flex flex-col space-y-4">
             <button
-              class="bg-[var(--green-light)] text-white rounded-md py-2 px-4 shadow 
+              class="bg-[var(--green-light)] text-white rounded-md py-2 px-4 mx-10 shadow 
                      hover:bg-[var(--green-dark)] transition duration-200"
               @click="callPhone"
             >
@@ -18,7 +18,7 @@
             </button>
             
             <button
-              class="bg-[var(--green-light)] text-white rounded-md py-2 px-4 shadow
+              class="bg-[var(--green-light)] text-white rounded-md py-2 px-4 mx-10 shadow
                      hover:bg-[var(--green-dark)] transition duration-200"
               @click="callWhatsApp"
             >
@@ -27,7 +27,7 @@
           </div>
           
           <!-- Contact Form -->
-          <div class="flex-1">
+          <div class="flex-1 mx-10">
             <form @submit.prevent="handleSubmit" class="grid grid-cols-1 gap-4">
               <!-- Name -->
               <div>

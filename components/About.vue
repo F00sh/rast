@@ -3,8 +3,8 @@
       <div class="bg-[#478957] flex flex-col  w-full lg:w-1/2 h-max items-center justify-center">
         <div class="flex flex-col">
           <h1 class="bg-[#478957] flex h-full font-montserrat text-white text-4xl lg:text-6xl font-black tracking-[0.8rem] lg:tracking-[1.5rem] uppercase ml-10 lg:ml-20 mt-28">O nama</h1>
-          <div class="bg-gray-100 h-1 w-1/3 ml-10 lg:ml-20 mt-5"></div>
-          <p class="bg-[#478957] text-white h-full w-full pt-20 pb-10 px-10 lg:px-20 text-md lg:text-lg tracking-[0.25rem] leading-[1.5rem] lg:leading-[2.2rem] font-light uppercase">{{ text_about_long_1  }}</p>  
+          <div class="bg-[var(--orange-dark)] h-1 w-1/3 ml-10 lg:ml-20 mt-5"></div>
+          <p class="bg-[#478957] text-white h-full w-full pt-20 pb-20 px-10 lg:px-20 text-md lg:text-lg tracking-[0.25rem] leading-[1.5rem] lg:leading-[2.2rem] font-light uppercase">{{ text_about_long_1  }}</p>  
         </div>
         <img class=" w-11/12 mb-20 lg:mb-14" src="/public/img/posada_2.png" alt="">
       </div>
@@ -20,15 +20,15 @@
       </div>
 
       <div class="flex flex-col w-full lg:w-1/2 items-start justify-center uppercase mt-1">
-        <p class="bg-[#E8E8E8] text-md lg:text-lg tracking-[0.2rem] leading-[1.8rem] lg:leading-[2.2rem] font-light uppercase py-10 lg:py-20 px-10 lg:px-20">{{ text_about_long_2  }}</p>
+        <p class="bg-[#E8E8E8] text-md lg:text-lg tracking-[0.2rem] leading-[1.8rem] lg:leading-[2.2rem] font-light uppercase py-20 lg:py-20 px-10 lg:px-20">{{ text_about_long_2  }}</p>
         <img class="bg-[#E8E8E8] " src="/public/img/o_nama_1.png" alt="">
       </div>
  <div class="desktop-only flex w-1/2 h-full my-1 gap-1 items-center justify-center">
   <img class="w-1/2" src="/public/img/vozimo.png" alt="">
-  <div><p class="text-gray-100 my-0 text-md lg:text-xl tracking-[0.25rem] leading-[1.8rem] lg:leading-[2.2rem] font-light uppercase p-10">{{ text_about_long_3  }}</p></div>
+  <div><p class="text-gray-100 my-0 text-md lg:text-xl tracking-[0.25rem] leading-[1.8rem] lg:leading-[2.2rem] font-light uppercase p-10 py-20">{{ text_about_long_3  }}</p></div>
  </div>
  <div class="mobile-only flex flex-col w-full h-full my-1 gap-1 items-center justify-center">
-  <div><p class="text-gray-100 my-0 text-md lg:text-xl tracking-[0.25rem] leading-[1.8rem] lg:leading-[2.2rem] font-light uppercase p-10">{{ text_about_long_3  }}</p></div>
+  <div><p class="text-gray-100 my-0 text-md lg:text-xl tracking-[0.25rem] leading-[1.8rem] lg:leading-[2.2rem] font-light uppercase p-10 py-20">{{ text_about_long_3  }}</p></div>
   <img class="w-full" src="/public/img/vozimo.png" alt="">
  </div>
       <img class="lg:w-1/2" src="/public/img/bukovac_8.png" alt="">    

@@ -2,7 +2,7 @@
   <div id="usluge" class="w-full flex flex-col items-center justify-start lg:px-0 lg:mt-1">
     <div class="bg-[#478957] flex flex-col lg:flex-row w-full lg:w-1/2 items-start justify-between lg:px-20">
         <div class="flex flex-col items-start justify-center lg:items-start lg:justify-start h-full bg-[#478957]">
-          <h1 class="bg-[#478957] flex h-full w-full font-montserrat text-white text-4xl lg:text-6xl font-black tracking-[0.8rem] lg:tracking-[1.5rem] uppercase ml-10 lg:ml-0 mt-20">usluge</h1>
+          <h1 class="bg-[#478957] flex h-full w-full font-montserrat text-white text-4xl lg:text-6xl font-black tracking-[0.8rem] lg:tracking-[1.5rem] uppercase pl-10 lg:pl-0 mt-20">usluge</h1>
           <div class="bg-[var(--orange-dark)] h-1 w-1/3 ml-10 lg:ml-0 mt-5"></div>
           <p class="bg-[#478957] text-white h-full w-full pt-20 pb-20 lg:pb-20 lg:pr-5 px-10 lg:px-0 text-md lg:text-lg tracking-[0.25rem] leading-[1.5rem] lg:leading-[2.2rem] font-light uppercase">{{ usluge_mali_1 }}</p>  
         </div>

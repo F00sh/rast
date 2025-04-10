@@ -10,16 +10,16 @@
           <!-- Call and WhatsApp Buttons -->
           <div class="flex-1 flex flex-col space-y-4">
             <button
-              class="bg-[var(--green-light)] text-white rounded-md py-2 px-4 mx-10 shadow 
-                     hover:bg-[var(--green-dark)] transition duration-200"
+              class="border-[var(--green-dark)] hover:border-[var(--green-light)] bg-[var(--green-light)] border-2 text-gray-200 py-2 px-4 shadow-lg 
+                     hover:bg-[var(--green-dark)] hover:text-[var(--green-light)] transition duration-200 uppercase font-medium tracking-[0.25rem] mx-10"
               @click="callPhone"
             >
               Poziv
             </button>
             
             <button
-              class="bg-[var(--green-light)] text-white rounded-md py-2 px-4 mx-10 shadow
-                     hover:bg-[var(--green-dark)] transition duration-200"
+              class="border-[var(--green-dark)] hover:border-[var(--green-light)] bg-[var(--green-light)] border-2 text-gray-200 py-2 px-4 shadow-lg 
+                     hover:bg-[var(--green-dark)] hover:text-[var(--green-light)] transition duration-200 uppercase font-medium tracking-[0.25rem] mx-10"
               @click="callWhatsApp"
             >
               WhatsApp
@@ -39,7 +39,7 @@
                   id="name"
                   v-model="name"
                   required
-                  class="w-full border border-gray-300 rounded p-2
+                  class="w-full border border-[var(--green-light)] rounded p-2
                          focus:outline-none focus:ring-2 
                          focus:ring-[var(--green-light)]"
                 />
@@ -55,7 +55,7 @@
                   id="email"
                   v-model="email"
                   required
-                  class="w-full border border-gray-300 rounded p-2
+                  class="w-full border border-[var(--green-light)] rounded p-2
                          focus:outline-none focus:ring-2
                          focus:ring-[var(--green-light)]"
                 />
@@ -71,7 +71,7 @@
                   v-model="message"
                   required
                   rows="4"
-                  class="w-full border border-gray-300 rounded p-2
+                  class="w-full border border-[var(--green-light)] rounded p-2
                          focus:outline-none focus:ring-2
                          focus:ring-[var(--green-light)]"
                 ></textarea>
@@ -100,8 +100,8 @@
               <!-- Submit -->
               <button
                 type="submit"
-                class="bg-[var(--green-dark)] text-white rounded-md py-2 px-4
-                       hover:bg-[var(--green-light)] transition duration-200"
+                class="w-full border-[var(--green-dark)] bg-[var(--green-light)] border-2 text-gray-200 py-2 px-4 shadow-lg 
+                     hover:bg-[var(--green-dark)] hover:text-[var(--green-light)] transition duration-200 uppercase font-medium tracking-[0.25rem]"
               >
                 Pošalji
               </button>

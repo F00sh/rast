@@ -6,9 +6,13 @@
     :class="{ '-translate-y-full': hideNavbar }"
   >
     <!-- The toggle button (top-right). -->
-    <button class="text-sm z-20 border-1 border-[var(--green-dark)] text-[var(--green-light)] px-4 py-2 uppercase tracking-[0.2rem] shadow-lg" @click="toggleNavbar">
-      {{ navbarOpen ? 'zatvori' : 'izbornik' }}
-    </button>
+    <button
+  class="flex text-sm z-20 border-1 text-[var(--green-light)] uppercase tracking-[0.2rem] shadow-lg text-center"
+  :class="navbarOpen ? 'border-[var(--orange-dark)] text-[var(--orange-dark)] px-3 py-2' : 'border-[var(--green-dark)] text-[var(--green-light)] px-4 py-2'"
+  @click="toggleNavbar"
+>
+  {{ navbarOpen ? 'X' : 'izbornik' }}
+</button>
 
     <!-- The overlay with blur, appears only if navbarOpen is true. -->
     <transition name="fade">
@@ -37,6 +41,13 @@
           @click="toggleNavbar"
         >
           Galerija
+        </NuxtLink>
+        <NuxtLink
+          to="/#kontakt"
+          class="text-sm z-20 border-1 border-gray-400 text-white px-4 py-2 uppercase tracking-[0.2rem] shadow-lg mt-10 w-40 text-center"
+          @click="toggleNavbar"
+        >
+          kontakt
         </NuxtLink>
       </div>
     </transition>

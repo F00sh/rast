@@ -28,7 +28,7 @@
         <h1 class="bg-[#D35E29] w-full h-full lg:leading-[2.2rem] tracking-[0.2rem] text-white text-center items-center text-lg lg:text-2xl py-5">{{usluge_podnaslov_3}}</h1>
         <h1 class="bg-[#D35E29] w-full h-full lg:leading-[2.2rem] tracking-[0.2rem] text-white text-center items-center text-lg lg:text-2xl py-5 px-5">{{usluge_podnaslov_4}}</h1>
         
-        <img class="lg:w-1/2" src="/public/img/bukovac_8.png" alt="">    
+        <img class="lg:w-1/2" src="/public/img/tabor_6.png" alt="">    
 
         <h1 class="bg-[#D35E29] w-full h-full lg:leading-[2.2rem] tracking-[0.2rem] text-white text-center items-center text-lg lg:text-2xl py-5">{{usluge_podnaslov_5}}</h1>
         <h1 class="bg-[#D35E29] w-full h-full lg:leading-[2.2rem] tracking-[0.2rem] text-white text-center items-center text-lg lg:text-2xl py-5">{{usluge_podnaslov_6}}</h1>

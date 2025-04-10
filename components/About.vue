@@ -20,13 +20,13 @@
         <p class="bg-[#E8E8E8] text-md lg:text-lg tracking-[0.2rem] leading-[1.8rem] lg:leading-[2.2rem] font-light uppercase py-20 lg:py-20 px-10 lg:px-20">{{ text_about_long_2  }}</p>
         <img class="bg-[#E8E8E8] " src="/public/img/o_nama_1.png" alt="">
       </div>
- <div class="desktop-only flex w-1/2 h-full my-1 gap-1 items-center justify-center">
-  <img class="w-1/2" src="/public/img/vozimo.png" alt="">
-  <div><p class="text-gray-100 my-0 text-md lg:text-xl tracking-[0.25rem] leading-[1.8rem] lg:leading-[2.2rem] font-light uppercase p-10 lg:p-20 py-20">{{ text_about_long_3  }}</p></div>
+ <div class="desktop-only flex w-1/2 mt-1 gap-1 items-center justify-center">
+  <div class="bg-[url('/img/vozimo.png')] bg-cover bg-center w-full h-[400px] md:h-[600px]"></div>
+  <div class="w-full"><p class="text-gray-100 my-0 text-md lg:text-xl tracking-[0.25rem] leading-[1.8rem] lg:leading-[2.2rem] font-light uppercase p-10 lg:p-20">{{ text_about_long_3  }}</p></div>
  </div>
- <div class="mobile-only flex flex-col w-full h-full my-1 gap-1 items-center justify-center">
-  <div><p class="text-gray-100 my-0 text-md lg:text-xl tracking-[0.25rem] leading-[1.8rem] lg:leading-[2.2rem] font-light uppercase p-10 py-20">{{ text_about_long_3  }}</p></div>
-  <img class="w-full" src="/public/img/vozimo.png" alt="">
+ <div class="mobile-only flex flex-col w-full h-1/3 my-1 gap-1 items-center justify-center">
+  <div><p class="flex text-gray-100 h-full my-0 text-md lg:text-xl tracking-[0.25rem] leading-[1.8rem] lg:leading-[2.2rem] font-light uppercase p-10">{{ text_about_long_3  }}</p></div>
+  <div class="bg-[url('/img/vozimo.png')] bg-cover bg-center w-full h-[400px] md:h-[600px]"></div>
  </div>
     
   </div>

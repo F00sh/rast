@@ -56,17 +56,17 @@
 
       <!-- Left Arrow -->
       <button
-        class="absolute top-1/2 left-2 -translate-y-1/2 bg-white p-2 rounded-full shadow-md"
+        class="absolute top-1/2 left-2 -translate-y-1/2 p-2 rounded-full shadow-md"
         @click="prevSlide"
       >
-        <img src="/img/arrow.svg" alt="Left Arrow" class="w-6 h-6"/>
+        <img src="/img/arrow.svg" alt="Left Arrow" class="w-9 h-9"/>
       </button>
       <!-- Right Arrow -->
       <button
-        class="absolute top-1/2 right-2 -translate-y-1/2 bg-white p-2 rounded-full shadow-md"
+        class="absolute top-1/2 right-2 -translate-y-1/2 p-2 rounded-full shadow-md"
         @click="nextSlide"
       >
-        <img src="/img/arrow.svg" alt="Right Arrow" class="w-6 h-6 rotate-180"/>
+        <img src="/img/arrow.svg" alt="Right Arrow" class="w-9 h-9 rotate-180"/>
       </button>
     </div>
 

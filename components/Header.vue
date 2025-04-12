@@ -1,5 +1,5 @@
 <template>
-  <div class="relative w-full h-screen flex flex-col items-center justify-center">
+  <div id="Header" class="relative w-full h-screen flex flex-col items-center justify-center">
     <div class="desktop-only flex flex-col z-10 top-0 right-0 w-1/2 h-1/2 items-end justify-center bg-[#25544A]">
       <NuxtLink to="/#about" class="z-10 text-center bg-[#25544A] border border-[#478957] text-[#69BE5C] text-xl tracking-[0.7rem] lg:ml-10 mt-10 w-60 py-4 uppercase shadow-xl">o nama</NuxtLink>
       <NuxtLink to="/#usluge" class="z-10 text-center bg-[#25544A] border border-[#478957] text-[#69BE5C] text-xl tracking-[0.7rem] lg:ml-10 mt-10 w-60 py-4 uppercase shadow-xl">usluge</NuxtLink>

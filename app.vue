@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-[#25544A]">
+  <div class="bg-[#25544A] font-[var(--bodoni)]">
     
       <NuxtRouteAnnouncer />
       <NuxtLayout>
